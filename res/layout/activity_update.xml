@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/brand_navy_950" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="28.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="@drawable/bg_logo_badge" android:layout_width="88.0dp" android:layout_height="88.0dp" android:layout_marginTop="12.0dp" android:layout_marginBottom="18.0dp" android:elevation="6.0dp">
+                <ImageView android:layout_gravity="center" android:layout_width="64.0dp" android:layout_height="64.0dp" android:src="@drawable/app_icon" android:contentDescription="@string/app_name" />
+            </FrameLayout>
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/accent_gold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_title" android:letterSpacing="0.01" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/text_on_dark_secondary" android:gravity="center" android:id="@id/textVersionSummary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_on_dark_muted" android:id="@id/textReleaseDate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" />
+            <LinearLayout android:orientation="vertical" android:id="@id/cardChangelog" android:background="@drawable/bg_login_card" android:padding="22.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:elevation="8.0dp">
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/text_on_dark_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/update_whats_new" />
+                <LinearLayout android:orientation="vertical" android:id="@id/containerChangelog" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.google.android.material.button.MaterialButton android:textSize="15.0sp" android:textStyle="bold" android:id="@id/buttonDownloadUpdate" android:layout_width="match_parent" android:layout_height="54.0dp" android:layout_marginTop="26.0dp" android:text="@string/update_download_button" android:letterSpacing="0.03" app:backgroundTint="@color/accent_gold" app:cornerRadius="16.0dp" app:icon="@drawable/ic_update" app:iconGravity="textStart" app:iconPadding="10.0dp" app:iconTint="@color/brand_navy_950" app:rippleColor="@color/accent_gold_dark" />
+            <com.google.android.material.button.MaterialButton android:textColor="@color/text_on_dark_secondary" android:id="@id/buttonLater" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/update_later_button" style="@style/Widget.MaterialComponents.Button.TextButton" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">ewubd.edu</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="@raw/ewu_intermediate" />
+        </trust-anchors>
+    </domain-config>
+    <base-config>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

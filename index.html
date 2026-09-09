@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EWU Portal App</title>
+<style>
+  :root{
+    --navy-950:#08141F;
+    --navy-900:#0A1930;
+    --navy-800:#0F2647;
+    --gold:#F2B33D;
+    --gold-dark:#D89A2A;
+    --text-1:#FFFFFF;
+    --text-2:#B8C4D9;
+    --text-3:#7C8AA6;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--navy-950);
+    color:var(--text-1);
+    font-family:-apple-system,"Segoe UI","Noto Sans Bengali","Hind Siliguri",system-ui,sans-serif;
+    line-height:1.6;
+  }
+  .wrap{max-width:640px;margin:0 auto;padding:32px 20px 60px;}
+
+
+  header{text-align:center;margin-bottom:28px;}
+  .logo{
+    width:88px;height:88px;border-radius:22px;
+    background:#3DFFFFFF20;
+    border:1px solid #F2B33D40;
+    display:flex;align-items:center;justify-content:center;
+    font-size:40px;margin:0 auto 14px;
+  }
+  h1{margin:0;font-size:24px;letter-spacing:.01em;}
+  .subtitle{color:var(--text-2);font-size:14px;margin-top:6px;}
+
+
+  .download-card{
+    background:var(--navy-800);
+    border:1px solid #F2B33D30;
+    border-radius:20px;
+    padding:22px;
+    text-align:center;
+    margin-bottom:26px;
+  }
+  .version-badge{
+    display:inline-block;
+    background:#FFFFFF12;
+    color:var(--text-2);
+    font-size:12px;
+    padding:5px 14px;
+    border-radius:20px;
+    margin-bottom:14px;
+  }
+  .btn-download{
+    display:block;
+    width:100%;
+    padding:16px;
+    background:var(--gold);
+    color:var(--navy-950);
+    font-weight:700;
+    font-size:16px;
+    text-decoration:none;
+    border-radius:14px;
+    letter-spacing:.02em;
+  }
+  .btn-download:active{background:var(--gold-dark);}
+  .btn-download.disabled{opacity:.5;pointer-events:none;}
+  .hint{color:var(--text-3);font-size:12px;margin-top:10px;}
+
+
+  h2{font-size:16px;color:var(--gold);margin:0 0 12px;}
+  .card{
+    background:var(--navy-800);
+    border:1px solid #FFFFFF14;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:20px;
+  }
+  ul.features{list-style:none;margin:0;padding:0;}
+  ul.features li{
+    padding:10px 0;
+    border-bottom:1px solid #FFFFFF0F;
+    font-size:14.5px;
+  }
+  ul.features li:last-child{border-bottom:none;}
+
+  ul.changelog{margin:0;padding-left:20px;color:var(--text-2);font-size:13.5px;}
+  ul.changelog li{margin-bottom:6px;}
+
+  .notice{
+    background:#F2B33D14;
+    border:1px solid #F2B33D40;
+    border-radius:16px;
+    padding:16px 18px;
+    font-size:13.5px;
+    color:var(--text-2);
+    margin-bottom:20px;
+  }
+  .notice b{color:var(--gold);}
+
+  .coming-soon{
+    text-align:center;
+    color:var(--text-2);
+    font-size:14px;
+    margin-bottom:26px;
+  }
+
+  footer{
+    text-align:center;
+    color:var(--text-3);
+    font-size:12.5px;
+    margin-top:10px;
+  }
+  footer a{color:var(--text-2);text-decoration:none;border-bottom:1px dashed var(--text-3);}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">🎓</div>
+    <h1>EWU Portal App</h1>
+    <div class="subtitle">East West University পোর্টাল, এখন আরও সহজ ও দ্রুত</div>
+  </header>
+
+  <div class="download-card">
+    <div class="version-badge" id="versionBadge">Version লোড হচ্ছে…</div>
+    <a href="#" id="downloadBtn" class="btn-download disabled">📲 Download করুন</a>
+    <div class="hint" id="downloadHint">সরাসরি APK ডাউনলোড হবে — Play Store লাগবে না</div>
+  </div>
+
+  <div class="card">
+    <h2>✨ Features</h2>
+    <ul class="features">
+<li>🔐 আর Math solve বা বারবার ID/Password টাইপ করার ঝামেলা নেই — <b>Auto Fill</b> দিয়ে দ্রুত লগইন</li>
+
+<li>🫆 Fingerprint / Phone Password দিয়েই সরাসরি প্রবেশ — <b>Biometric Lock</b> আপনার তথ্য রাখবে সুরক্ষিত</li>
+
+<li>👀 <b>Hidden Faculty List</b> — পোর্টালে লুকানো Faculty Name ও Email-ও সহজেই দেখা যাবে</li>
+
+<li>📅 <b>Smart Class Schedule</b> — SRTS Code-এর বদলে Saturday, Monday-এর মতো সহজ ভাষায় পুরো রুটিন দেখুন</li>
+
+<li>📖 <b>পড়তে সহজ Schedule</b> — মোবাইল স্ক্রিনের জন্য তৈরি পরিষ্কার ও গোছানো UI, যাতে এক নজরেই ক্লাসের সময়, রুম ও দিনের তথ্য পাওয়া যায়</li>
+
+<li>🖨 <b>Perfect Class Schedule PDF</b> — পরিষ্কার, সুন্দর ও প্রিন্ট-ফ্রেন্ডলি PDF তৈরি করুন; পরে সংরক্ষণ বা প্রিন্ট করাও সহজ</li>
+
+<li>📱 <b>Mobile-first UI</b> — ছোট স্ক্রিনেও প্রয়োজনীয় সব তথ্য সুন্দরভাবে দেখা যাবে, বারবার zoom বা horizontal scroll করার প্রয়োজন নেই</li>
+
+<li>⚡ <b>Browser-এর চেয়ে আরও দ্রুত ও সুবিধাজনক</b> — প্রতিবার browser খুলে portal খোঁজার ঝামেলা ছাড়াই প্রয়োজনীয় কাজগুলো সরাসরি অ্যাপ থেকেই করুন</li>
+
+<li>📂 <b>File Upload</b> — প্রয়োজনীয় documents ও files সহজেই upload করুন, আলাদা করে browser ব্যবহার করার ঝামেলা নেই</li>
+
+<li>📚 <b>Course &amp; Result</b> — আপনার Course, Result ও প্রয়োজনীয় academic information এক জায়গা থেকেই দ্রুত দেখুন</li>
+
+<li>⏱️ <b>কম ধাপ, কম সময়</b> — প্রতিদিনের Portal-এর কাজগুলোকে আরও সহজ, দ্রুত ও convenient করার জন্য তৈরি</li>
+    </ul>
+  </div>
+
+  <div class="notice">
+    ⚠️ এখন কাজ করছি website-এর <b>High Load-এ Crash</b> হওয়ার issue fix করা নিয়ে।
+    ভবিষ্যতে app দিয়েই server-side issue bypass করার চেষ্টা করব — যাতে সবাই নির্বিঘ্নে
+    তাদের পছন্দের কোর্স নিতে পারে।
+  </div>
+
+  <div class="card" id="changelogCard" style="display:none;">
+    <h2>🆕 কী নতুন আছে</h2>
+    <ul class="changelog" id="changelogList"></ul>
+  </div>
+
+  <div class="coming-soon">আরও নতুন Features আসছে সামনে 🚀</div>
+
+  <footer>
+    Developed by <a href="https://github.com/SameerAlSahab" target="_blank" rel="noopener">Sameer Al Sahab</a>
+  </footer>
+
+</div>
+
+<script>
+
+  // "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/update.json"
+  const UPDATE_JSON_URL = "update.json";
+
+  fetch(UPDATE_JSON_URL, { cache: "no-cache" })
+    .then(res => {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(data => {
+      const versionBadge = document.getElementById("versionBadge");
+      const downloadBtn = document.getElementById("downloadBtn");
+
+      versionBadge.textContent = "Version " + (data.version || "?");
+
+      if (data.download_url) {
+        downloadBtn.href = data.download_url;
+        downloadBtn.textContent = "📲 Download করুন (v" + data.version + ")";
+        downloadBtn.classList.remove("disabled");
+      }
+
+      if (Array.isArray(data.changelog) && data.changelog.length) {
+        const list = document.getElementById("changelogList");
+        data.changelog.forEach(line => {
+          const li = document.createElement("li");
+          li.textContent = line;
+          list.appendChild(li);
+        });
+        document.getElementById("changelogCard").style.display = "block";
+      }
+    })
+    .catch(() => {
+      document.getElementById("versionBadge").textContent = "Version তথ্য লোড করা যায়নি";
+      document.getElementById("downloadHint").textContent =
+        "একটু পর আবার চেষ্টা করুন, অথবা GitHub Releases থেকে সরাসরি ডাউনলোড করুন";
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_reload" android:title="@string/menu_reload" android:showAsAction="never" />
+    <item android:id="@id/action_print" android:title="@string/menu_print" android:showAsAction="never" />
+    <item android:id="@id/action_update_credentials" android:title="@string/menu_update_credentials" android:showAsAction="never" />
+    <item android:id="@id/action_logout" android:title="@string/menu_logout" android:showAsAction="never" />
+    <item android:id="@id/action_share_logs" android:title="@string/menu_share_logs" android:showAsAction="never" />
+    <item android:id="@id/action_check_updates" android:title="@string/menu_check_updates" android:showAsAction="never" />
+</menu>
