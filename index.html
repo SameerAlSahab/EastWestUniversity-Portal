@@ -25,7 +25,6 @@
   }
   .wrap{max-width:640px;margin:0 auto;padding:32px 20px 60px;}
 
-
   header{text-align:center;margin-bottom:28px;}
   .logo{
     width:88px;height:88px;border-radius:22px;
@@ -37,6 +36,30 @@
   h1{margin:0;font-size:24px;letter-spacing:.01em;}
   .subtitle{color:var(--text-2);font-size:14px;margin-top:6px;}
 
+  /* Screenshots Carousel / Grid */
+  .screenshot-grid {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold) var(--navy-800);
+  }
+  .screenshot-grid::-webkit-scrollbar {
+    height: 6px;
+  }
+  .screenshot-grid::-webkit-scrollbar-thumb {
+    background: var(--gold);
+    border-radius: 4px;
+  }
+  .screenshot-grid img {
+    width: 160px;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF20;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
 
   .download-card{
     background:var(--navy-800);
@@ -45,6 +68,7 @@
     padding:22px;
     text-align:center;
     margin-bottom:26px;
+    margin-top: 20px;
   }
   .version-badge{
     display:inline-block;
@@ -70,7 +94,6 @@
   .btn-download:active{background:var(--gold-dark);}
   .btn-download.disabled{opacity:.5;pointer-events:none;}
   .hint{color:var(--text-3);font-size:12px;margin-top:10px;}
-
 
   h2{font-size:16px;color:var(--gold);margin:0 0 12px;}
   .card{
@@ -127,37 +150,34 @@
     <div class="subtitle">East West University পোর্টাল, এখন আরও সহজ ও দ্রুত</div>
   </header>
 
-  <div class="download-card">
-    <div class="version-badge" id="versionBadge">Version লোড হচ্ছে…</div>
-    <a href="#" id="downloadBtn" class="btn-download disabled">📲 Download করুন</a>
-    <div class="hint" id="downloadHint">সরাসরি APK ডাউনলোড হবে — Play Store লাগবে না</div>
-  </div>
-
   <div class="card">
     <h2>✨ Features</h2>
     <ul class="features">
-<li>🔐 আর Math solve বা বারবার ID/Password টাইপ করার ঝামেলা নেই — <b>Auto Fill</b> দিয়ে দ্রুত লগইন</li>
-
-<li>🫆 Fingerprint / Phone Password দিয়েই সরাসরি প্রবেশ — <b>Biometric Lock</b> আপনার তথ্য রাখবে সুরক্ষিত</li>
-
-<li>👀 <b>Hidden Faculty List</b> — পোর্টালে লুকানো Faculty Name ও Email-ও সহজেই দেখা যাবে</li>
-
-<li>📅 <b>Smart Class Schedule</b> — SRTS Code-এর বদলে Saturday, Monday-এর মতো সহজ ভাষায় পুরো রুটিন দেখুন</li>
-
-<li>📖 <b>পড়তে সহজ Schedule</b> — মোবাইল স্ক্রিনের জন্য তৈরি পরিষ্কার ও গোছানো UI, যাতে এক নজরেই ক্লাসের সময়, রুম ও দিনের তথ্য পাওয়া যায়</li>
-
-<li>🖨 <b>Perfect Class Schedule PDF</b> — পরিষ্কার, সুন্দর ও প্রিন্ট-ফ্রেন্ডলি PDF তৈরি করুন; পরে সংরক্ষণ বা প্রিন্ট করাও সহজ</li>
-
-<li>📱 <b>Mobile-first UI</b> — ছোট স্ক্রিনেও প্রয়োজনীয় সব তথ্য সুন্দরভাবে দেখা যাবে, বারবার zoom বা horizontal scroll করার প্রয়োজন নেই</li>
-
-<li>⚡ <b>Browser-এর চেয়ে আরও দ্রুত ও সুবিধাজনক</b> — প্রতিবার browser খুলে portal খোঁজার ঝামেলা ছাড়াই প্রয়োজনীয় কাজগুলো সরাসরি অ্যাপ থেকেই করুন</li>
-
-<li>📂 <b>File Upload</b> — প্রয়োজনীয় documents ও files সহজেই upload করুন, আলাদা করে browser ব্যবহার করার ঝামেলা নেই</li>
-
-<li>📚 <b>Course &amp; Result</b> — আপনার Course, Result ও প্রয়োজনীয় academic information এক জায়গা থেকেই দ্রুত দেখুন</li>
-
-<li>⏱️ <b>কম ধাপ, কম সময়</b> — প্রতিদিনের Portal-এর কাজগুলোকে আরও সহজ, দ্রুত ও convenient করার জন্য তৈরি</li>
+      <li>🔐 আর Math solve বা বারবার ID/Password টাইপ করার ঝামেলা নেই — <b>Auto Fill</b> দিয়ে দ্রুত লগইন</li>
+      <li>🫆 Fingerprint / Phone Password দিয়েই সরাসরি প্রবেশ — <b>Biometric Lock</b> আপনার তথ্য রাখবে সুরক্ষিত</li>
+      <li>👀 <b>Hidden Faculty List</b> — পোর্টালে লুকানো Faculty Name ও Email-ও সহজেই দেখা যাবে</li>
+      <li>📅 <b>Smart Class Schedule</b> — SRTS Code-এর বদলে Saturday, Monday-এর মতো সহজ ভাষায় পুরো রুটিন দেখুন</li>
+      <li>📖 <b>পড়তে সহজ Schedule</b> — মোবাইল স্ক্রিনের জন্য তৈরি পরিষ্কার ও গোছানো UI, যাতে এক নজরেই ক্লাসের সময়, রুম ও দিনের তথ্য পাওয়া যায়</li>
+      <li>🖨 <b>Perfect Class Schedule PDF</b> — পরিষ্কার, সুন্দর ও প্রিন্ট-ফ্রেন্ডলি PDF তৈরি করুন; পরে সংরক্ষণ বা প্রিন্ট করাও সহজ</li>
+      <li>📱 <b>Mobile-first UI</b> — ছোট স্ক্রিনেও প্রয়োজনীয় সব তথ্য সুন্দরভাবে দেখা যাবে, বারবার zoom বা horizontal scroll করার প্রয়োজন নেই</li>
+      <li>⚡ <b>Browser-এর চেয়ে আরও দ্রুত ও সুবিধাজনক</b> — প্রতিবার browser খুলে portal খোঁজার ঝামেলা ছাড়াই প্রয়োজনীয় কাজগুলো সরাসরি অ্যাপ থেকেই করুন</li>
+      <li>📂 <b>File Upload</b> — প্রয়োজনীয় documents ও files সহজেই upload করুন, আলাদা করে browser ব্যবহার করার ঝামেলা নেই</li>
+      <li>📚 <b>Course &amp; Result</b> — আপনার Course, Result ও প্রয়োজনীয় academic information এক জায়গা থেকেই দ্রুত দেখুন</li>
+      <li>⏱️ <b>কম ধাপ, কম সময়</b> — প্রতিদিনের Portal-এর কাজগুলোকে আরও সহজ, দ্রুত ও convenient করার জন্য তৈরি</li>
     </ul>
+  </div>
+
+
+  <div class="card">
+    <h2>📱 এক নজরে Screenshots</h2>
+    <div class="screenshot-grid">
+      <img src="screenshots/1.jpg" alt="Screenshot 1" loading="lazy">
+      <img src="screenshots/2.jpg" alt="Screenshot 2" loading="lazy">
+      <img src="screenshots/3.jpg" alt="Screenshot 3" loading="lazy">
+      <img src="screenshots/4.jpg" alt="Screenshot 4" loading="lazy">
+      <img src="screenshots/5.jpg" alt="Screenshot 5" loading="lazy">
+      <img src="screenshots/6.jpg" alt="Screenshot 6" loading="lazy">
+    </div>
   </div>
 
   <div class="notice">
@@ -173,6 +193,12 @@
 
   <div class="coming-soon">আরও নতুন Features আসছে সামনে 🚀</div>
 
+  <div class="download-card">
+    <div class="version-badge" id="versionBadge">Version লোড হচ্ছে…</div>
+    <a href="#" id="downloadBtn" class="btn-download disabled">📲 Download করুন</a>
+    <div class="hint" id="downloadHint">সরাসরি APK ডাউনলোড হবে — Play Store লাগবে না</div>
+  </div>
+
   <footer>
     Developed by <a href="https://github.com/SameerAlSahab" target="_blank" rel="noopener">Sameer Al Sahab</a>
   </footer>
@@ -180,8 +206,6 @@
 </div>
 
 <script>
-
-  // "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/update.json"
   const UPDATE_JSON_URL = "update.json";
 
   fetch(UPDATE_JSON_URL, { cache: "no-cache" })
