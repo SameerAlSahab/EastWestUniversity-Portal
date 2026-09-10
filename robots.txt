@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sameeralsahab.github.io/EastWestUniversity-Portal/sitemap.xml

@@ -1,245 +1,508 @@
 <!doctype html>
-<html lang="bn">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EWU Portal App</title>
+
+<title>EWU Portal App — East West University Student Portal for Android</title>
+
+<meta name="description" content="EWU Portal App is a modern Android application for East West University students. Access class schedules, course results, faculty directory, biometric login, PDF schedules, file upload, and more in a faster mobile-friendly experience.">
+
+<meta name="keywords" content="
+EWU Portal,
+East West University Portal,
+East West University,
+EWU Student Portal,
+EWU Android App,
+EWU Class Schedule,
+EWU Result,
+EWU Faculty,
+EWU Course Registration,
+East West University Bangladesh,
+EWU Portal App,
+EWU Student App,
+Dhaka University Portal,
+Bangladesh University Portal,
+EWU Mobile App">
+
+<meta name="author" content="Sameer Al Sahab">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#08141F">
+
+<link rel="canonical" href="https://sameeralsahab.github.io/EastWestUniversity-Portal/">
+
+<link rel="icon" type="image/png" href="/images/logo.png">
+<link rel="apple-touch-icon" href="/images/logo.png">
+
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EWU Portal App">
+<meta property="og:title" content="EWU Portal App — East West University Student Portal for Android">
+<meta property="og:description" content="A better mobile experience for East West University students with biometric login, readable class schedules, faculty directory, results, PDF export, and more.">
+<meta property="og:url" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/">
+<meta property="og:image" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/images/banner.png">
+<meta property="og:image:alt" content="EWU Portal App Preview">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="EWU Portal App — East West University Student Portal">
+<meta name="twitter:description" content="A faster and cleaner Android app for East West University students.">
+<meta name="twitter:image" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/images/banner.png">
+
+<meta name="application-name" content="EWU Portal App">
+<meta name="apple-mobile-web-app-title" content="EWU Portal App">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<meta name="language" content="English">
+<meta http-equiv="content-language" content="en">
+
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"SoftwareApplication",
+  "name":"EWU Portal App",
+  "applicationCategory":"EducationalApplication",
+  "operatingSystem":"Android",
+  "softwareVersion":"1.0.1",
+  "description":"Android companion application for East West University students with biometric login, class schedule viewer, results, faculty directory, PDF export, and file upload support.",
+  "creator":{
+    "@type":"Person",
+    "name":"Sameer Al Sahab"
+  },
+  "publisher":{
+    "@type":"Person",
+    "name":"Sameer Al Sahab"
+  },
+  "url":"https://sameeralsahab.github.io/EastWestUniversity-Portal/",
+  "image":"https://sameeralsahab.github.io/EastWestUniversity-Portal/images/logo.png",
+  "keywords":[
+    "EWU Portal",
+    "East West University",
+    "EWU Student Portal",
+    "EWU Android App",
+    "Class Schedule",
+    "Faculty Directory",
+    "Course Result",
+    "Bangladesh University Portal"
+  ],
+  "offers":{
+    "@type":"Offer",
+    "price":"0",
+    "priceCurrency":"BDT"
+  }
+}
+</script>
+
 <style>
-  :root{
-    --navy-950:#08141F;
-    --navy-900:#0A1930;
-    --navy-800:#0F2647;
-    --gold:#F2B33D;
-    --gold-dark:#D89A2A;
-    --text-1:#FFFFFF;
-    --text-2:#B8C4D9;
-    --text-3:#7C8AA6;
-  }
-  *{box-sizing:border-box;}
-  body{
-    margin:0;
-    background:var(--navy-950);
-    color:var(--text-1);
-    font-family:-apple-system,"Segoe UI","Noto Sans Bengali","Hind Siliguri",system-ui,sans-serif;
-    line-height:1.6;
-  }
-  .wrap{max-width:640px;margin:0 auto;padding:32px 20px 60px;}
+:root{
+  --navy-950:#08141F;
+  --navy-900:#0A1930;
+  --navy-800:#0F2647;
+  --gold:#F2B33D;
+  --gold-dark:#D89A2A;
+  --text:#FFFFFF;
+  --muted:#B8C4D9;
+  --muted2:#7C8AA6;
+}
 
-  header{text-align:center;margin-bottom:28px;}
-  .logo{
-    width:88px;height:88px;border-radius:22px;
-    background:#3DFFFFFF20;
-    border:1px solid #F2B33D40;
-    display:flex;align-items:center;justify-content:center;
-    font-size:40px;margin:0 auto 14px;
-  }
-  h1{margin:0;font-size:24px;letter-spacing:.01em;}
-  .subtitle{color:var(--text-2);font-size:14px;margin-top:6px;}
+*{box-sizing:border-box}
 
-  /* Screenshots Carousel / Grid */
-  .screenshot-grid {
-    display: flex;
-    gap: 12px;
-    overflow-x: auto;
-    padding-bottom: 10px;
-    scrollbar-width: thin;
-    scrollbar-color: var(--gold) var(--navy-800);
-  }
-  .screenshot-grid::-webkit-scrollbar {
-    height: 6px;
-  }
-  .screenshot-grid::-webkit-scrollbar-thumb {
-    background: var(--gold);
-    border-radius: 4px;
-  }
-  .screenshot-grid img {
-    width: 160px;
-    height: auto;
-    border-radius: 12px;
-    border: 1px solid #FFFFFF20;
-    flex-shrink: 0;
-    object-fit: cover;
-  }
+body{
+  margin:0;
+  background:var(--navy-950);
+  color:var(--text);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  line-height:1.65;
+}
 
-  .download-card{
-    background:var(--navy-800);
-    border:1px solid #F2B33D30;
-    border-radius:20px;
-    padding:22px;
-    text-align:center;
-    margin-bottom:26px;
-    margin-top: 20px;
-  }
-  .version-badge{
-    display:inline-block;
-    background:#FFFFFF12;
-    color:var(--text-2);
-    font-size:12px;
-    padding:5px 14px;
-    border-radius:20px;
-    margin-bottom:14px;
-  }
-  .btn-download{
-    display:block;
-    width:100%;
-    padding:16px;
-    background:var(--gold);
-    color:var(--navy-950);
-    font-weight:700;
-    font-size:16px;
-    text-decoration:none;
-    border-radius:14px;
-    letter-spacing:.02em;
-  }
-  .btn-download:active{background:var(--gold-dark);}
-  .btn-download.disabled{opacity:.5;pointer-events:none;}
-  .hint{color:var(--text-3);font-size:12px;margin-top:10px;}
+.wrap{
+  max-width:680px;
+  margin:auto;
+  padding:36px 20px 60px;
+}
 
-  h2{font-size:16px;color:var(--gold);margin:0 0 12px;}
-  .card{
-    background:var(--navy-800);
-    border:1px solid #FFFFFF14;
-    border-radius:18px;
-    padding:20px;
-    margin-bottom:20px;
-  }
-  ul.features{list-style:none;margin:0;padding:0;}
-  ul.features li{
-    padding:10px 0;
-    border-bottom:1px solid #FFFFFF0F;
-    font-size:14.5px;
-  }
-  ul.features li:last-child{border-bottom:none;}
 
-  ul.changelog{margin:0;padding-left:20px;color:var(--text-2);font-size:13.5px;}
-  ul.changelog li{margin-bottom:6px;}
 
-  .notice{
-    background:#F2B33D14;
-    border:1px solid #F2B33D40;
-    border-radius:16px;
-    padding:16px 18px;
-    font-size:13.5px;
-    color:var(--text-2);
-    margin-bottom:20px;
-  }
-  .notice b{color:var(--gold);}
+header{
+  text-align:center;
+  margin-bottom:32px;
+}
 
-  .coming-soon{
-    text-align:center;
-    color:var(--text-2);
-    font-size:14px;
-    margin-bottom:26px;
-  }
+.logo{
+  width:90px;
+  height:90px;
+  border-radius:22px;
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(242,179,61,.2);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:auto auto 18px;
+  overflow:hidden;
+}
 
-  footer{
-    text-align:center;
-    color:var(--text-3);
-    font-size:12.5px;
-    margin-top:10px;
-  }
-  footer a{color:var(--text-2);text-decoration:none;border-bottom:1px dashed var(--text-3);}
+.logo img{
+  width:70px;
+  height:70px;
+  object-fit:contain;
+}
+
+h1{
+  margin:0;
+  font-size:30px;
+  font-weight:700;
+  letter-spacing:-.02em;
+}
+
+.subtitle{
+  color:var(--muted);
+  font-size:15px;
+  margin-top:8px;
+}
+
+
+
+.card{
+  background:var(--navy-800);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:20px;
+  padding:22px;
+  margin-bottom:22px;
+}
+
+h2{
+  margin:0 0 16px;
+  color:var(--gold);
+  font-size:15px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+
+
+.features{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.features li{
+  padding:14px 0;
+  border-bottom:1px solid rgba(255,255,255,.06);
+  font-size:15px;
+}
+
+.features li:last-child{
+  border:none;
+}
+
+.features b{
+  color:white;
+}
+
+
+
+.screenshot-grid{
+  display:flex;
+  gap:12px;
+  overflow-x:auto;
+  padding-bottom:8px;
+  scrollbar-width:thin;
+}
+
+.screenshot-grid img{
+  width:170px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.08);
+  flex-shrink:0;
+}
+
+
+
+.notice{
+  background:rgba(242,179,61,.08);
+  border:1px solid rgba(242,179,61,.25);
+  border-radius:18px;
+  padding:18px;
+  color:var(--muted);
+  font-size:14px;
+  margin-bottom:22px;
+}
+
+.notice strong{
+  color:var(--gold);
+}
+
+
+
+.download-card{
+  background:linear-gradient(180deg,var(--navy-800),var(--navy-900));
+  border:1px solid rgba(242,179,61,.25);
+  border-radius:22px;
+  padding:24px;
+  text-align:center;
+  margin-top:10px;
+}
+
+.version-badge{
+  display:inline-block;
+  padding:6px 14px;
+  background:rgba(255,255,255,.08);
+  color:var(--muted);
+  border-radius:999px;
+  font-size:12px;
+  margin-bottom:18px;
+}
+
+.btn-download{
+  display:block;
+  width:100%;
+  padding:15px;
+  background:var(--gold);
+  color:var(--navy-950);
+  text-decoration:none;
+  border-radius:14px;
+  font-weight:700;
+  transition:.2s;
+}
+
+.btn-download:hover{
+  background:var(--gold-dark);
+}
+
+.btn-download.disabled{
+  opacity:.5;
+  pointer-events:none;
+}
+
+.hint{
+  margin-top:12px;
+  font-size:12px;
+  color:var(--muted2);
+}
+
+
+
+.changelog{
+  margin:0;
+  padding-left:18px;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.changelog li{
+  margin-bottom:8px;
+}
+
+
+.coming-soon{
+  text-align:center;
+  color:var(--muted);
+  font-size:14px;
+  margin:30px 0 8px;
+}
+
+footer{
+  text-align:center;
+  color:var(--muted2);
+  font-size:13px;
+  margin-top:30px;
+}
+
+footer a{
+  color:var(--muted);
+  text-decoration:none;
+}
 </style>
 </head>
+
 <body>
+
 <div class="wrap">
 
-  <header>
-    <div class="logo">🎓</div>
-    <h1>EWU Portal App</h1>
-    <div class="subtitle">East West University পোর্টাল, এখন আরও সহজ ও দ্রুত</div>
-  </header>
+<header>
 
-  <div class="card">
-    <h2>✨ Features</h2>
-    <ul class="features">
-      <li>🔐 আর Math solve বা বারবার ID/Password টাইপ করার ঝামেলা নেই — <b>Auto Fill</b> দিয়ে দ্রুত লগইন</li>
-      <li>🫆 Fingerprint / Phone Password দিয়েই সরাসরি প্রবেশ — <b>Biometric Lock</b> আপনার তথ্য রাখবে সুরক্ষিত</li>
-      <li>👀 <b>Hidden Faculty List</b> — পোর্টালে লুকানো Faculty Name ও Email-ও সহজেই দেখা যাবে</li>
-      <li>📅 <b>Smart Class Schedule</b> — SRTS Code-এর বদলে Saturday, Monday-এর মতো সহজ ভাষায় পুরো রুটিন দেখুন</li>
-      <li>📖 <b>পড়তে সহজ Schedule</b> — মোবাইল স্ক্রিনের জন্য তৈরি পরিষ্কার ও গোছানো UI, যাতে এক নজরেই ক্লাসের সময়, রুম ও দিনের তথ্য পাওয়া যায়</li>
-      <li>🖨 <b>Perfect Class Schedule PDF</b> — পরিষ্কার, সুন্দর ও প্রিন্ট-ফ্রেন্ডলি PDF তৈরি করুন; পরে সংরক্ষণ বা প্রিন্ট করাও সহজ</li>
-      <li>📱 <b>Mobile-first UI</b> — ছোট স্ক্রিনেও প্রয়োজনীয় সব তথ্য সুন্দরভাবে দেখা যাবে, বারবার zoom বা horizontal scroll করার প্রয়োজন নেই</li>
-      <li>⚡ <b>Browser-এর চেয়ে আরও দ্রুত ও সুবিধাজনক</b> — প্রতিবার browser খুলে portal খোঁজার ঝামেলা ছাড়াই প্রয়োজনীয় কাজগুলো সরাসরি অ্যাপ থেকেই করুন</li>
-      <li>📂 <b>File Upload</b> — প্রয়োজনীয় documents ও files সহজেই upload করুন, আলাদা করে browser ব্যবহার করার ঝামেলা নেই</li>
-      <li>📚 <b>Course &amp; Result</b> — আপনার Course, Result ও প্রয়োজনীয় academic information এক জায়গা থেকেই দ্রুত দেখুন</li>
-      <li>⏱️ <b>কম ধাপ, কম সময়</b> — প্রতিদিনের Portal-এর কাজগুলোকে আরও সহজ, দ্রুত ও convenient করার জন্য তৈরি</li>
-    </ul>
-  </div>
+<div class="logo">
+<img src="/images/logo.png" alt="East West University Logo">
+</div>
 
+<h1>EWU Portal App</h1>
 
-  <div class="card">
-    <h2>📱 এক নজরে Screenshots</h2>
-    <div class="screenshot-grid">
-      <img src="screenshots/1.jpg" alt="Screenshot 1" loading="lazy">
-      <img src="screenshots/2.jpg" alt="Screenshot 2" loading="lazy">
-      <img src="screenshots/3.jpg" alt="Screenshot 3" loading="lazy">
-      <img src="screenshots/4.jpg" alt="Screenshot 4" loading="lazy">
-      <img src="screenshots/5.jpg" alt="Screenshot 5" loading="lazy">
-      <img src="screenshots/6.jpg" alt="Screenshot 6" loading="lazy">
-    </div>
-  </div>
+<div class="subtitle">
+A faster, cleaner, and more convenient way to access the East West University Student Portal.
+</div>
 
-  <div class="notice">
-    ⚠️ এখন কাজ করছি website-এর <b>High Load-এ Crash</b> হওয়ার issue fix করা নিয়ে।
-    ভবিষ্যতে app দিয়েই server-side issue bypass করার চেষ্টা করব — যাতে সবাই নির্বিঘ্নে
-    তাদের পছন্দের কোর্স নিতে পারে।
-  </div>
+</header>
 
-  <div class="card" id="changelogCard" style="display:none;">
-    <h2>🆕 কী নতুন আছে</h2>
-    <ul class="changelog" id="changelogList"></ul>
-  </div>
+<div class="card">
 
-  <div class="coming-soon">আরও নতুন Features আসছে সামনে 🚀</div>
+<h2>Features</h2>
 
-  <div class="download-card">
-    <div class="version-badge" id="versionBadge">Version লোড হচ্ছে…</div>
-    <a href="#" id="downloadBtn" class="btn-download disabled">📲 Download করুন</a>
-    <div class="hint" id="downloadHint">সরাসরি APK ডাউনলোড হবে — Play Store লাগবে না</div>
-  </div>
+<ul class="features">
 
-  <footer>
-    Developed by <a href="https://github.com/SameerAlSahab" target="_blank" rel="noopener">Sameer Al Sahab</a>
-  </footer>
+<li>
+<b>Secure Auto Login</b><br>
+Save your portal credentials once and sign in without typing your ID and password every time.
+</li>
+
+<li>
+<b>Biometric Protection</b><br>
+Unlock the app instantly using your fingerprint or device passcode while keeping your account secure.
+</li>
+
+<li>
+<b>Hidden Faculty Directory</b><br>
+View faculty names and email addresses that are not easily visible inside the official portal.
+</li>
+
+<li>
+<b>Readable Class Schedule</b><br>
+Schedules are converted from SRTS codes into normal weekday names with a clean mobile-friendly layout.
+</li>
+
+<li>
+<b>Class Schedule PDF</b><br>
+Generate a well-formatted PDF version of your class schedule for printing or offline use.
+</li>
+
+<li>
+<b>Course & Result Viewer</b><br>
+Quickly access your registered courses, semester results, CGPA, and other academic information.
+</li>
+
+<li>
+<b>File Upload Support</b><br>
+Upload assignments and required documents directly from the app without opening a browser.
+</li>
+
+<li>
+<b>Mobile-First Interface</b><br>
+Designed specifically for phones, with no horizontal scrolling or zooming required.
+</li>
+
+<li>
+<b>Faster Than the Browser</b><br>
+Complete common portal tasks in fewer steps with a smoother experience than using the website.
+</li>
+
+<li>
+<b>Built for Everyday Use</b><br>
+Everything is organized to reduce taps and save time during your daily university workflow.
+</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Screenshots</h2>
+
+<div class="screenshot-grid">
+
+<img src="screenshots/1.jpg" alt="Screenshot 1">
+<img src="screenshots/2.jpg" alt="Screenshot 2">
+<img src="screenshots/3.jpg" alt="Screenshot 3">
+<img src="screenshots/4.jpg" alt="Screenshot 4">
+<img src="screenshots/5.jpg" alt="Screenshot 5">
+<img src="screenshots/6.jpg" alt="Screenshot 6">
+
+</div>
+
+</div>
+
+<div class="notice">
+
+<strong>Development Status</strong><br><br>
+
+The current focus is improving stability during periods of heavy traffic on the university portal.
+
+Future updates aim to reduce the impact of server-side slowdowns and make course registration more reliable whenever possible.
+
+</div>
+
+<div class="card" id="changelogCard" style="display:none;">
+
+<h2>What's New</h2>
+
+<ul class="changelog" id="changelogList"></ul>
+
+</div>
+
+<div class="coming-soon">
+More features are planned in future updates.
+</div>
+
+<div class="download-card">
+
+<div class="version-badge" id="versionBadge">
+Loading latest version...
+</div>
+
+<a href="#" id="downloadBtn" class="btn-download disabled">
+Download APK
+</a>
+
+<div class="hint" id="downloadHint">
+The APK is downloaded directly. No Play Store installation is required.
+</div>
+
+</div>
+
+<footer>
+Developed by
+<a href="https://github.com/SameerAlSahab" target="_blank" rel="noopener">
+Sameer Al Sahab
+</a>
+</footer>
 
 </div>
 
 <script>
-  const UPDATE_JSON_URL = "./update.json";
+const UPDATE_JSON_URL="./update.json";
 
-  fetch(UPDATE_JSON_URL, { cache: "no-cache" })
-    .then(res => {
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      return res.json();
-    })
-    .then(data => {
-      const versionBadge = document.getElementById("versionBadge");
-      const downloadBtn = document.getElementById("downloadBtn");
+fetch(UPDATE_JSON_URL,{cache:"no-cache"})
+.then(res=>{
+  if(!res.ok) throw new Error();
+  return res.json();
+})
+.then(data=>{
 
-      versionBadge.textContent = "Version " + (data.version || "?");
+  document.getElementById("versionBadge").textContent =
+    `Version ${data.version || "Unknown"}`;
 
-      if (data.download_url) {
-        downloadBtn.href = data.download_url;
-        downloadBtn.textContent = "📲 Download করুন (v" + data.version + ")";
-        downloadBtn.classList.remove("disabled");
-      }
+  if(data.download_url){
+    const btn=document.getElementById("downloadBtn");
+    btn.href=data.download_url;
+    btn.textContent=`Download APK (v${data.version})`;
+    btn.classList.remove("disabled");
+  }
 
-      if (Array.isArray(data.changelog) && data.changelog.length) {
-        const list = document.getElementById("changelogList");
-        data.changelog.forEach(line => {
-          const li = document.createElement("li");
-          li.textContent = line;
-          list.appendChild(li);
-        });
-        document.getElementById("changelogCard").style.display = "block";
-      }
-    })
-    .catch(() => {
-      document.getElementById("versionBadge").textContent = "Version তথ্য লোড করা যায়নি";
-      document.getElementById("downloadHint").textContent =
-        "একটু পর আবার চেষ্টা করুন, অথবা GitHub Releases থেকে সরাসরি ডাউনলোড করুন";
+  if(Array.isArray(data.changelog) && data.changelog.length){
+    const list=document.getElementById("changelogList");
+
+    data.changelog.forEach(item=>{
+      const li=document.createElement("li");
+      li.textContent=item;
+      list.appendChild(li);
     });
+
+    document.getElementById("changelogCard").style.display="block";
+  }
+
+})
+.catch(()=>{
+  document.getElementById("versionBadge").textContent =
+    "Unable to load version information";
+
+  document.getElementById("downloadHint").textContent =
+    "Please try again later or download the latest APK from GitHub Releases.";
+});
 </script>
+
 </body>
 </html>
