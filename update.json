@@ -1,15 +1,16 @@
 {
-  "version": "1.0.3",
-  "version_code": 4,
+  "version": "1.0.4",
+  "version_code": 5,
   "release_date": "2026-09-11",
   "download_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/app/ewu_portal.apk",
   "changelog_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/CHANGELOG.md",
   "changelog": [
+    "Add notification before class.",
     "Full UI Redesign",
     "Added CGPA counter, Scholarship check and more features",
     "Thanks Anika Chowdhury Apu for correct day expressions.",
     "Minor improvements"
   ],
-  "min_supported_version_code": 4,
+  "min_supported_version_code": 5,
   "force_update": true
 }
