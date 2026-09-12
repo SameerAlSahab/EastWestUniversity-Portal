@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "version_code": 5,
+  "version": "1.0.5",
+  "version_code": 6,
   "release_date": "2026-09-11",
   "download_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/app/ewu_portal.apk",
   "changelog_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/CHANGELOG.md",
@@ -11,6 +11,6 @@
     "Thanks Anika Chowdhury Apu for correct day expressions.",
     "Minor improvements"
   ],
-  "min_supported_version_code": 5,
+  "min_supported_version_code": 6,
   "force_update": true
 }

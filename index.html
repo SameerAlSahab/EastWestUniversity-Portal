@@ -8,56 +8,30 @@
 
 <meta name="description" content="EWU Portal App is a modern Android application for East West University students. Access class schedules, course results, faculty directory, biometric login, PDF schedules, file upload, and more in a faster mobile-friendly experience.">
 
-<meta name="keywords" content="
-EWU Portal,
-East West University Portal,
-East West University,
-EWU Student Portal,
-EWU Android App,
-EWU Class Schedule,
-EWU Result,
-EWU Faculty,
-EWU Course Registration,
-East West University Bangladesh,
-EWU Portal App,
-EWU Student App,
-Dhaka University Portal,
-Bangladesh University Portal,
-EWU Mobile App">
-
+<meta name="keywords" content="EWU Portal, East West University Portal, East West University, EWU Student Portal, EWU Android App, EWU Class Schedule, EWU Result, EWU Faculty, EWU Course Registration, East West University Bangladesh, EWU Portal App, EWU Student App">
 <meta name="author" content="Sameer Al Sahab">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#08141F">
 
 <link rel="canonical" href="https://sameeralsahab.github.io/EastWestUniversity-Portal/">
-
 <link rel="icon" type="image/png" href="./images/logo.png">
 <link rel="apple-touch-icon" href="./images/logo.png">
 
-
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="EWU Portal App">
-<meta property="og:title" content="EWU Portal App — East West University Student Portal for Android">
-<meta property="og:description" content="A better mobile experience for East West University students with biometric login, readable class schedules, faculty directory, results, PDF export, and more.">
+<meta property="og:title" content="EWU Portal App — Mobile Companion for East West University Students">
+<meta property="og:description" content="A faster, cleaner mobile experience for EWU students with biometric login, class schedules, grade calculator, exam focus mode, and assignment cover generator.">
 <meta property="og:url" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/">
 <meta property="og:image" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/images/banner.png">
-<meta property="og:image:alt" content="EWU Portal App Preview">
-
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="EWU Portal App — East West University Student Portal">
-<meta name="twitter:description" content="A faster and cleaner Android app for East West University students.">
+<meta name="twitter:title" content="EWU Portal App — Student Companion App">
+<meta name="twitter:description" content="A simple, fast Android app for East West University students to manage schedules, grades, and study focus.">
 <meta name="twitter:image" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/images/banner.png">
 
-<meta name="application-name" content="EWU Portal App">
-<meta name="apple-mobile-web-app-title" content="EWU Portal App">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-
-
-<meta name="language" content="English">
-<meta http-equiv="content-language" content="en">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
 {
@@ -78,16 +52,6 @@ EWU Mobile App">
   },
   "url":"https://sameeralsahab.github.io/EastWestUniversity-Portal/",
   "image":"https://sameeralsahab.github.io/EastWestUniversity-Portal/images/logo.png",
-  "keywords":[
-    "EWU Portal",
-    "East West University",
-    "EWU Student Portal",
-    "EWU Android App",
-    "Class Schedule",
-    "Faculty Directory",
-    "Course Result",
-    "Bangladesh University Portal"
-  ],
   "offers":{
     "@type":"Offer",
     "price":"0",
@@ -97,225 +61,484 @@ EWU Mobile App">
 </script>
 
 <style>
-:root{
-  --navy-950:#08141F;
-  --navy-900:#0A1930;
-  --navy-800:#0F2647;
-  --gold:#F2B33D;
-  --gold-dark:#D89A2A;
-  --text:#FFFFFF;
-  --muted:#B8C4D9;
-  --muted2:#7C8AA6;
+:root {
+  --navy-950: #050C14;
+  --navy-900: #08141F;
+  --navy-850: #0C1E30;
+  --navy-800: #11263E;
+  --gold: #F2B33D;
+  --gold-glow: rgba(242, 179, 61, 0.35);
+  --cyan: #38BDF8;
+  --cyan-glow: rgba(56, 189, 248, 0.35);
+  --danger: #EF4444;
+  --text-primary: #F8FAFC;
+  --text-muted: #94A3B8;
+  --text-subtle: #64748B;
+  --glass-bg: rgba(17, 38, 62, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.08);
 }
 
-*{box-sizing:border-box}
+* { box-sizing: border-box; }
 
-body{
-  margin:0;
-  background:var(--navy-950);
-  color:var(--text);
-  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-  line-height:1.65;
+body {
+  margin: 0;
+  background-color: var(--navy-950);
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 80% 40%, rgba(242, 179, 61, 0.08) 0%, transparent 40%);
+  color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 
-.wrap{
-  max-width:680px;
-  margin:auto;
-  padding:36px 20px 60px;
-}
-
-
-
-header{
-  text-align:center;
-  margin-bottom:32px;
-}
-
-.logo{
-  width:90px;
-  height:90px;
-  border-radius:22px;
-  background:rgba(255,255,255,.05);
-  border:1px solid rgba(242,179,61,.2);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin:auto auto 18px;
-  overflow:hidden;
-}
-
-.logo img{
-  width:70px;
-  height:70px;
-  object-fit:contain;
-}
-
-h1{
-  margin:0;
-  font-size:30px;
-  font-weight:700;
-  letter-spacing:-.02em;
-}
-
-.subtitle{
-  color:var(--muted);
-  font-size:15px;
-  margin-top:8px;
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
 }
 
 
-
-.card{
-  background:var(--navy-800);
-  border:1px solid rgba(255,255,255,.08);
-  border-radius:20px;
-  padding:22px;
-  margin-bottom:22px;
+header {
+  text-align: center;
+  margin-bottom: 36px;
+  position: relative;
 }
 
-h2{
-  margin:0 0 16px;
-  color:var(--gold);
-  font-size:15px;
-  font-weight:700;
-  text-transform:uppercase;
-  letter-spacing:.08em;
+.logo-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
 }
 
-
-
-.features{
-  list-style:none;
-  padding:0;
-  margin:0;
+.logo-glow {
+  position: absolute;
+  inset: 0;
+  border-radius: 28px;
+  background: linear-gradient(135deg, var(--gold), var(--cyan));
+  filter: blur(16px);
+  opacity: 0.45;
+  animation: pulseGlow 4s ease-in-out infinite alternate;
 }
 
-.features li{
-  padding:14px 0;
-  border-bottom:1px solid rgba(255,255,255,.06);
-  font-size:15px;
+.logo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+  background: var(--navy-900);
+  border: 1px solid rgba(242, 179, 61, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-.features li:last-child{
-  border:none;
+.logo img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
 }
 
-.features b{
-  color:white;
+h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(180deg, #FFFFFF 0%, #CBD5E1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-
-.screenshot-grid{
-  display:flex;
-  gap:12px;
-  overflow-x:auto;
-  padding-bottom:8px;
-  scrollbar-width:thin;
+.subtitle {
+  color: var(--text-muted);
+  font-size: 15px;
+  margin-top: 10px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.screenshot-grid img{
-  width:170px;
-  border-radius:14px;
-  border:1px solid rgba(255,255,255,.08);
-  flex-shrink:0;
+.hero-badges {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+  flex-wrap: wrap;
 }
 
-
-
-.notice{
-  background:rgba(242,179,61,.08);
-  border:1px solid rgba(242,179,61,.25);
-  border-radius:18px;
-  padding:18px;
-  color:var(--muted);
-  font-size:14px;
-  margin-bottom:22px;
+.chip {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
 }
 
-.notice strong{
-  color:var(--gold);
-}
-
-
-
-.download-card{
-  background:linear-gradient(180deg,var(--navy-800),var(--navy-900));
-  border:1px solid rgba(242,179,61,.25);
-  border-radius:22px;
-  padding:24px;
-  text-align:center;
-  margin-top:10px;
-}
-
-.version-badge{
-  display:inline-block;
-  padding:6px 14px;
-  background:rgba(255,255,255,.08);
-  color:var(--muted);
-  border-radius:999px;
-  font-size:12px;
-  margin-bottom:18px;
-}
-
-.btn-download{
-  display:block;
-  width:100%;
-  padding:15px;
-  background:var(--gold);
-  color:var(--navy-950);
-  text-decoration:none;
-  border-radius:14px;
-  font-weight:700;
-  transition:.2s;
-}
-
-.btn-download:hover{
-  background:var(--gold-dark);
-}
-
-.btn-download.disabled{
-  opacity:.5;
-  pointer-events:none;
-}
-
-.hint{
-  margin-top:12px;
-  font-size:12px;
-  color:var(--muted2);
+.chip.highlight {
+  background: rgba(242, 179, 61, 0.1);
+  border-color: rgba(242, 179, 61, 0.3);
+  color: var(--gold);
 }
 
 
-
-.changelog{
-  margin:0;
-  padding-left:18px;
-  color:var(--muted);
-  font-size:14px;
+.showcase-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
-.changelog li{
-  margin-bottom:8px;
+.cgpa-transform-box {
+  background: var(--navy-950);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 12px;
+  position: relative;
+}
+
+.cgpa-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-subtle);
+  font-weight: 700;
+}
+
+.cgpa-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+  font-family: monospace;
+}
+
+.cgpa-old {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--danger);
+  position: relative;
+  opacity: 0.6;
+}
+
+.cgpa-old::after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  right: -4px;
+  top: 50%;
+  height: 3px;
+  background: var(--danger);
+  transform: rotate(-12deg);
+  box-shadow: 0 0 8px var(--danger);
+  animation: strikeAnim 2.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.cgpa-arrow {
+  color: var(--text-subtle);
+  font-size: 20px;
+}
+
+.cgpa-new {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--gold);
+  text-shadow: 0 0 16px var(--gold-glow);
+  animation: popGlow 2.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.cgpa-tagline {
+  font-size: 13px;
+  color: var(--cyan);
+  margin-top: 8px;
+  font-weight: 600;
 }
 
 
-.coming-soon{
-  text-align:center;
-  color:var(--muted);
-  font-size:14px;
-  margin:30px 0 8px;
+.rule-card {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(15, 38, 71, 0.8));
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
 }
 
-footer{
-  text-align:center;
-  color:var(--muted2);
-  font-size:13px;
-  margin-top:30px;
+.rule-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  background: rgba(239, 68, 68, 0.2);
+  color: var(--danger);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 0;
 }
 
-footer a{
-  color:var(--muted);
-  text-decoration:none;
+.rule-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 4px;
+}
+
+.rule-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.rule-desc strong {
+  color: var(--gold);
+}
+
+/* Feature Grid */
+.section-header {
+  margin: 32px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-space-between: space-between;
+}
+
+.section-title {
+  margin: 0;
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media(min-width: 580px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.feature-box {
+  background: var(--navy-850);
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+  padding: 18px;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feature-box:hover {
+  transform: translateY(-2px);
+  border-color: rgba(242, 179, 61, 0.3);
+}
+
+.feature-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.feature-icon-wrapper {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: rgba(242, 179, 61, 0.1);
+  border: 1px solid rgba(242, 179, 61, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.feature-box.cyan .feature-icon-wrapper {
+  background: rgba(56, 189, 248, 0.1);
+  border-color: rgba(56, 189, 248, 0.2);
+  color: var(--cyan);
+}
+
+.feature-box.danger .feature-icon-wrapper {
+  background: rgba(239, 68, 68, 0.1);
+  border-color: rgba(239, 68, 68, 0.2);
+  color: var(--danger);
+}
+
+.feature-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.feature-detail {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.feature-badge {
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: 12px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(255,255,255,0.06);
+  color: var(--text-subtle);
+}
+
+/* Screenshots */
+.screenshot-grid {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  padding: 4px 4px 14px;
+  scrollbar-width: thin;
+}
+
+.screenshot-grid img {
+  width: 180px;
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  flex-shrink: 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+
+.notice {
+  background: rgba(56, 189, 248, 0.05);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 28px 0;
+}
+
+.notice strong {
+  color: var(--cyan);
+}
+
+.download-card {
+  background: linear-gradient(180deg, var(--navy-800) 0%, var(--navy-900) 100%);
+  border: 1px solid rgba(242, 179, 61, 0.3);
+  border-radius: 26px;
+  padding: 32px 24px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+.version-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 18px;
+  background: linear-gradient(135deg, var(--gold) 0%, #E5A125 100%);
+  color: var(--navy-950);
+  text-decoration: none;
+  border-radius: 16px;
+  font-weight: 800;
+  font-size: 16px;
+  transition: all 0.25s ease;
+  box-shadow: 0 8px 24px var(--gold-glow);
+}
+
+.btn-download:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #FFC24D 0%, #D89A2A 100%);
+}
+
+.btn-download.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+.hint {
+  margin-top: 14px;
+  font-size: 12px;
+  color: var(--text-subtle);
+}
+
+.changelog {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.changelog li {
+  margin-bottom: 8px;
+}
+
+footer {
+  text-align: center;
+  color: var(--text-subtle);
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@keyframes pulseGlow {
+  0% { transform: scale(0.95); opacity: 0.3; }
+  100% { transform: scale(1.08); opacity: 0.6; }
+}
+
+@keyframes strikeAnim {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.9; }
+}
+
+@keyframes popGlow {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
 }
 </style>
 </head>
@@ -324,201 +547,241 @@ footer a{
 
 <div class="wrap">
 
-<header>
+  <!-- Header -->
+  <header>
+    <div class="logo-wrapper">
+      <div class="logo-glow"></div>
+      <div class="logo">
+        <img src="./images/logo.png" alt="East West University Logo">
+      </div>
+    </div>
 
-<div class="logo">
-<img src="./images/logo.png" alt="East West University Logo">
-</div>
+    <h1>EWU Portal App</h1>
+    <div class="subtitle">
+      A smoother, faster way to access the East West University student portal on Android. No captcha math, no repetitive logins.
+    </div>
 
-<h1>EWU Portal App</h1>
-
-<div class="subtitle">
-A faster, cleaner, and more convenient way to access the East West University Student Portal.
-</div>
-
-</header>
-
-<div class="card">
-
-<h2>Features</h2>
-
-<ul class="features">
-
-<li>
-<b>Secure Auto Login</b><br>
-Save your portal credentials once and sign in without typing your ID and password and math solution every time.
-</li>
-
-<li>
-<b>Biometric Protection</b><br>
-Unlock the app instantly using your fingerprint or device passcode while keeping your account secure.
-</li>
-
-<li>
-<b>Hidden Faculty Directory</b><br>
-View faculty names and email addresses that are not easily visible inside the official portal.
-</li>
-
-<li>
-<b>Readable Class Schedule</b><br>
-Schedules are converted from SRTS codes into normal weekday names with a clean mobile-friendly layout.
-</li>
-
-<li>
-<b>Class Schedule PDF</b><br>
-Generate a well-formatted PDF version of your class schedule for printing or offline use.
-</li>
-
-<li>
-<b>Course & Result Viewer</b><br>
-Quickly access your registered courses, semester results, CGPA, and other academic information.
-</li>
-
-<li>
-<b>File Upload Support</b><br>
-Upload assignments and required documents directly from the app without opening a browser.
-</li>
-
-<li>
-<b>Mobile-First Interface</b><br>
-Designed specifically for phones, with no horizontal scrolling or zooming required.
-</li>
-
-<li>
-<b>Faster Than the Browser</b><br>
-Complete common portal tasks in fewer steps with a smoother experience than using the website.
-</li>
-
-<li>
-<b>Built for Everyday Use</b><br>
-Everything is organized to reduce taps and save time during your daily university workflow.
-</li>
-
-<li>
-<b>Instant CGPA Calculation</b><br>
-Calculate your semester and overall CGPA instantly by entering your course grades and credits.
-</li>
-
-<li>
-<b>Notifications before class</b><br>
-Get instant remember notifications before class time for daily attendance.
-</li>
-
-<li>
-<b>Instant Scholarship Check</b><br>
-Check your scholarship eligibility instantly based on your CGPA and academic results.
-</li>
+    <div class="hero-badges">
+      <span class="chip highlight">v1.0.1</span>
+      <span class="chip">Study Companion</span>
+      <span class="chip">Biometric Security</span>
+      <span class="chip">Android Native</span>
+    </div>
+  </header>
 
 
+  <div class="showcase-card">
+    <div style="text-align:center;">
+      <span class="chip highlight" style="margin-bottom: 8px;">Study Companion</span>
+      <h3 style="margin: 6px 0 0; font-size: 18px;">Block apps &amp; Make your Goals Alive</h3>
+      <p style="margin: 4px 0 14px; font-size: 13px; color: var(--text-muted);">
+        Calculate semester grades, track your overall CGPA, and plan target scores easily, open portal, class schedule in no time.
+      </p>
+    </div>
 
-</ul>
+    <div class="cgpa-transform-box">
+      <div class="cgpa-label">Target Progress</div>
+      <div class="cgpa-display">
+        <span class="cgpa-old">2.50</span>
+        <span class="cgpa-arrow">➔</span>
+        <span class="cgpa-new">3.96</span>
+      </div>
+      <div class="cgpa-tagline">Scholarship Goal Unlocked</div>
+    </div>
+  </div>
 
-</div>
 
-<div class="card">
+  <div class="rule-card">
+    <div class="rule-icon">🔒</div>
+    <div>
+      <div class="rule-title">Your agreement, my rule.</div>
+      <div class="rule-desc">
+        Turn on <strong>Exam Mode</strong> during midterms and finals. Distraction apps and social media stay blocked until your scheduled study session ends.
+      </div>
+    </div>
+  </div>
 
-<h2>Screenshots</h2>
 
-<div class="screenshot-grid">
+  <div class="section-header">
+    <h2 class="section-title">Built for Daily Use. Get notifications before classes. No more attendance miss!!</h2>
+  </div>
 
-<img src="screenshots/1.jpg" alt="Screenshot 1">
-<img src="screenshots/2.jpg" alt="Screenshot 2">
-<img src="screenshots/3.jpg" alt="Screenshot 3">
-<img src="screenshots/4.jpg" alt="Screenshot 4">
-<img src="screenshots/5.jpg" alt="Screenshot 5">
-<img src="screenshots/6.jpg" alt="Screenshot 6">
+  <div class="feature-grid">
 
-</div>
+    <div class="feature-box">
+      <div>
+        <div class="feature-header">
+          <div class="feature-icon-wrapper">⚡</div>
+          <h3 class="feature-name">Fast Auto Login</h3>
+        </div>
+        <p class="feature-detail">Save your credentials once and log in without typing your password or solving math captchas every morning.</p>
+      </div>
+      <span class="feature-badge">Convenience</span>
+    </div>
 
-</div>
+    <div class="feature-box cyan">
+      <div>
+        <div class="feature-header">
+          <div class="feature-icon-wrapper">☝️</div>
+          <h3 class="feature-name">Biometric Protection</h3>
+        </div>
+        <p class="feature-detail">Unlock the app instantly using fingerprint or face recognition to keep your student data safe.</p>
+      </div>
+      <span class="feature-badge">Security</span>
+    </div>
 
-<div class="notice">
+    <div class="feature-box">
+      <div>
+        <div class="feature-header">
+          <div class="feature-icon-wrapper">📅</div>
+          <h3 class="feature-name">Readable Schedule &amp; PDF</h3>
+        </div>
+        <p class="feature-detail">Schedules are translated from SRTS codes into plain weekday names. Export clean PDF files anytime.</p>
+      </div>
+      <span class="feature-badge">Class Routine</span>
+    </div>
 
-<strong>Development Status</strong><br><br>
+    <div class="feature-box cyan">
+      <div>
+        <div class="feature-header">
+          <div class="feature-icon-wrapper">🔍</div>
+          <h3 class="feature-name">Faculty Directory</h3>
+        </div>
+        <p class="feature-detail">Find teacher emails, initial codes, and office locations that aren't easily visible on the web portal.</p>
+      </div>
+      <span class="feature-badge">Directory</span>
+    </div>
 
-The current focus is improving stability during periods of heavy traffic on the university portal.
+    <div class="feature-box danger">
+      <div>
+        <div class="feature-header">
+          <div class="feature-icon-wrapper">🎯</div>
+          <h3 class="feature-name">Exam Focus Mode</h3>
+        </div>
+        <p class="feature-detail">Block distracting apps during study hours so you stay committed to your upcoming tests and coursework.</p>
+      </div>
+      <span class="feature-badge">Focus Tool</span>
+    </div>
 
-Future updates aim to reduce the impact of server-side slowdowns and make course registration more reliable whenever possible.
+    <div class="feature-box">
+      <div>
+        <div class="feature-header">
+          <div class="feature-icon-wrapper">📄</div>
+          <h3 class="feature-name">Assignment Cover Generator</h3>
+        </div>
+        <p class="feature-detail">Generate properly formatted East West University cover pages in seconds, ready for printing or submission.</p>
+      </div>
+      <span class="feature-badge">Utility</span>
+    </div>
 
-</div>
+    <div class="feature-box cyan">
+      <div>
+        <div class="feature-header">
+          <div class="feature-icon-wrapper">🎓</div>
+          <h3 class="feature-name">Scholarship Checker</h3>
+        </div>
+        <p class="feature-detail">Instantly check your eligibility for merit scholarships based on your current GPA and results.</p>
+      </div>
+      <span class="feature-badge">Academic Tool</span>
+    </div>
 
-<div class="card" id="changelogCard" style="display:none;">
+    <div class="feature-box">
+      <div>
+        <div class="feature-header">
+          <div class="feature-icon-wrapper">📁</div>
+          <h3 class="feature-name">Direct File Uploads</h3>
+        </div>
+        <p class="feature-detail">Upload assignments and documents directly from your device or Google Drive without opening a browser.</p>
+      </div>
+      <span class="feature-badge">Portal Tool</span>
+    </div>
 
-<h2>What's New</h2>
+  </div>
 
-<ul class="changelog" id="changelogList"></ul>
+  <!-- App Screenshots -->
+  <div class="section-header">
+    <h2 class="section-title">App Screenshots</h2>
+  </div>
 
-</div>
+  <div class="screenshot-grid">
+    <img src="screenshots/1.jpg" alt="Home Screen">
+    <img src="screenshots/2.jpg" alt="Class Schedule">
+    <img src="screenshots/3.jpg" alt="Faculty Directory">
+    <img src="screenshots/4.jpg" alt="CGPA Calculator">
+    <img src="screenshots/5.jpg" alt="Exam Mode">
+    <img src="screenshots/6.jpg" alt="Cover Page Generator">
+  </div>
 
-<div class="coming-soon">
-More features are planned in future updates.
-</div>
 
-<div class="download-card">
+  <div class="notice">
+    <strong>Development Update</strong><br>
+    The app is optimized to stay responsive even during high-traffic periods like course registration.
+  </div>
 
-<div class="version-badge" id="versionBadge">
-Loading latest version...
-</div>
 
-<a href="#" id="downloadBtn" class="btn-download disabled">
-Download APK
-</a>
+  <div class="showcase-card" id="changelogCard" style="display:none; margin-bottom: 24px;">
+    <h2 class="section-title" style="margin-bottom: 12px;">What's New</h2>
+    <ul class="changelog" id="changelogList"></ul>
+  </div>
 
-<div class="hint" id="downloadHint">
-The APK is downloaded directly. No Play Store installation is required.
-</div>
 
-</div>
+  <div class="download-card">
+    <div class="version-badge" id="versionBadge">
+      Loading latest version...
+    </div>
 
-<footer>
-Developed by
-<a href="https://github.com/SameerAlSahab" target="_blank" rel="noopener">
-Sameer Al Sahab
-</a>
-</footer>
+    <a href="#" id="downloadBtn" class="btn-download disabled">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      <span>Download APK</span>
+    </a>
+
+    <div class="hint" id="downloadHint">
+      Direct APK download. Safe, verified, and no Play Store account required.
+    </div>
+  </div>
+
+
+  <footer>
+    Developed by
+    <a href="https://github.com/SameerAlSahab" target="_blank" rel="noopener">
+      Sameer Al Sahab
+    </a>
+  </footer>
 
 </div>
 
 <script>
-const UPDATE_JSON_URL="./update.json";
+const UPDATE_JSON_URL = "./update.json";
 
-fetch(UPDATE_JSON_URL,{cache:"no-cache"})
-.then(res=>{
-  if(!res.ok) throw new Error();
-  return res.json();
-})
-.then(data=>{
+fetch(UPDATE_JSON_URL, { cache: "no-cache" })
+  .then(res => {
+    if (!res.ok) throw new Error();
+    return res.json();
+  })
+  .then(data => {
+    document.getElementById("versionBadge").textContent = `Version ${data.version || "Unknown"}`;
 
-  document.getElementById("versionBadge").textContent =
-    `Version ${data.version || "Unknown"}`;
+    if (data.download_url) {
+      const btn = document.getElementById("downloadBtn");
+      btn.href = data.download_url;
+      btn.querySelector("span").textContent = `Download APK (v${data.version})`;
+      btn.classList.remove("disabled");
+    }
 
-  if(data.download_url){
-    const btn=document.getElementById("downloadBtn");
-    btn.href=data.download_url;
-    btn.textContent=`Download APK (v${data.version})`;
-    btn.classList.remove("disabled");
-  }
-
-  if(Array.isArray(data.changelog) && data.changelog.length){
-    const list=document.getElementById("changelogList");
-
-    data.changelog.forEach(item=>{
-      const li=document.createElement("li");
-      li.textContent=item;
-      list.appendChild(li);
-    });
-
-    document.getElementById("changelogCard").style.display="block";
-  }
-
-})
-.catch(()=>{
-  document.getElementById("versionBadge").textContent =
-    "Unable to load version information";
-
-  document.getElementById("downloadHint").textContent =
-    "Please try again later or download the latest APK from GitHub Releases.";
-});
+    if (Array.isArray(data.changelog) && data.changelog.length) {
+      const list = document.getElementById("changelogList");
+      data.changelog.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        list.appendChild(li);
+      });
+      document.getElementById("changelogCard").style.display = "block";
+    }
+  })
+  .catch(() => {
+    document.getElementById("versionBadge").textContent = "Unable to load version info";
+    document.getElementById("downloadHint").textContent = "Please download the latest APK directly from GitHub Releases.";
+  });
 </script>
 
 </body>
