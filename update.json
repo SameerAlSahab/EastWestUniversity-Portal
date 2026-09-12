@@ -1,10 +1,12 @@
 {
   "version": "1.0.5",
   "version_code": 6,
-  "release_date": "2026-09-11",
+  "release_date": "2026-09-12",
   "download_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/app/ewu_portal.apk",
   "changelog_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/CHANGELOG.md",
   "changelog": [
+    "Add Exam Mode and App Block",
+    "Add EWU Official Assignment Cover style app",
     "Add notification before class.",
     "Full UI Redesign",
     "Added CGPA counter, Scholarship check and more features",
