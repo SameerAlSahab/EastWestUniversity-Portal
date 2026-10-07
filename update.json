@@ -1,12 +1,12 @@
 {
-  "version": "1.0.7",
-  "version_code": 8,
-  "release_date": "2026-10-3",
+  "version": "1.0.8",
+  "version_code": 9,
+  "release_date": "2026-10-7",
   "download_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/app/ewu_portal.apk",
   "changelog_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/CHANGELOG.md",
   "changelog": [
-    "Fixed Class notifications with new UI"
+    "Fixed Status Bar UI override and added class reminders working in most android devices."
   ],
-  "min_supported_version_code": 8,
+  "min_supported_version_code": 9,
   "force_update": true
 }
