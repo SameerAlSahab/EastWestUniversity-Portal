@@ -39,6 +39,6 @@ Sign in once and get your class schedule, reminders, faculty info, CGPA and scho
 ---
 
 
-
+Download from >> https://sameeralsahab.github.io/EastWestUniversity-Portal
 
 *Disclaimer: This is an independent, unofficial application created to improve user experience for students. It is not officially affiliated with, maintained by, or endorsed by East West University.*
