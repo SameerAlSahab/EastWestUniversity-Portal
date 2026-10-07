@@ -18,7 +18,6 @@ Sign in once and get your class schedule, reminders, faculty info, CGPA and scho
   <img src="screenshots/3.jpg" width="150" alt="Screenshot 3" />
   <img src="screenshots/4.jpg" width="150" alt="Screenshot 4" />
   <img src="screenshots/5.jpg" width="150" alt="Screenshot 5" />
-  <img src="screenshots/6.jpg" width="150" alt="Screenshot 6" />
 </p>
 
 ### Academics
@@ -32,7 +31,7 @@ Sign in once and get your class schedule, reminders, faculty info, CGPA and scho
 - **All Faculty Info:** The full semester course, section, instructor and time list with **live search** by course, faculty or time.
 - **CGPA Calculator:** Work out your semester GPA or your cumulative CGPA.
 ### Tools and community
-- **Scholarship Checker:** Enter your CGPA and admission term to see whether you qualify for **100% Merit**, **Dean's List** or **Media Lalon**, based on EWU's CGPA bands.
+- **Scholarship Checker:** Enter your CGPA and admission term to see whether you qualify for **100% Merit**, **Dean's List** or **Medha Lalon**, based on EWU's CGPA bands.
 - **Assignment Cover Generator:** Creates the official EWU cover page as a **PDF**. Name and Student ID are pre-filled from your login, and the date defaults to today. Everything stays editable.
 - **Exam Mode:** A focus lock that blocks distracting apps (social media, games and similar) while you study or sit an exam. It uses an Android Accessibility Service that you enable yourself.
 - **Student Q&A Forum:**

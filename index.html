@@ -3,786 +3,275 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>EWU Portal App — East West University Student Portal for Android</title>
-
-<meta name="description" content="EWU Portal App is a modern Android application for East West University students. Access class schedules, course results, faculty directory, biometric login, PDF schedules, file upload, and more in a faster mobile-friendly experience.">
-
-<meta name="keywords" content="EWU Portal, East West University Portal, East West University, EWU Student Portal, EWU Android App, EWU Class Schedule, EWU Result, EWU Faculty, EWU Course Registration, East West University Bangladesh, EWU Portal App, EWU Student App">
+<title>East-West-University-Portal-App | Unofficial EWU Student Portal App for Android</title>
+<meta name="description" content="Unofficial all-in-one Android app for East West University students: class schedule with PDF export, class reminders, faculty info, CGPA and scholarship tools, assignment covers, exam focus mode and a student Q&A forum.">
+<meta name="keywords" content="EWU Portal, East West University Portal, EWU Student Portal, EWU Android App, EWU Class Schedule, EWU Faculty, EWU CGPA Calculator, EWU Scholarship, EWU Assignment Cover, East West University Bangladesh">
 <meta name="author" content="Sameer Al Sahab">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="theme-color" content="#08141F">
-
+<meta name="theme-color" content="#071326">
 <link rel="canonical" href="https://sameeralsahab.github.io/EastWestUniversity-Portal/">
 <link rel="icon" type="image/png" href="./images/logo.png">
 <link rel="apple-touch-icon" href="./images/logo.png">
-
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="EWU Portal App">
-<meta property="og:title" content="EWU Portal App — Mobile Companion for East West University Students">
-<meta property="og:description" content="A faster, cleaner mobile experience for EWU students with biometric login, class schedules, grade calculator, exam focus mode, and assignment cover generator.">
+<meta property="og:site_name" content="East-West-University-Portal-App">
+<meta property="og:title" content="East-West-University-Portal-App">
+<meta property="og:description" content="Unofficial portal app with many useful features for EWU students.">
 <meta property="og:url" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/">
 <meta property="og:image" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/images/banner.png">
-
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="EWU Portal App — Student Companion App">
-<meta name="twitter:description" content="A simple, fast Android app for East West University students to manage schedules, grades, and study focus.">
+<meta name="twitter:title" content="East-West-University-Portal-App">
+<meta name="twitter:description" content="Schedule, reminders, faculty info, CGPA, scholarship checker, exam mode and Q&A for EWU students.">
 <meta name="twitter:image" content="https://sameeralsahab.github.io/EastWestUniversity-Portal/images/banner.png">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"SoftwareApplication",
-  "name":"EWU Portal App",
-  "applicationCategory":"EducationalApplication",
-  "operatingSystem":"Android",
-  "softwareVersion":"1.0.1",
-  "description":"Android companion application for East West University students with biometric login, class schedule viewer, results, faculty directory, PDF export, and file upload support.",
-  "creator":{
-    "@type":"Person",
-    "name":"Sameer Al Sahab"
-  },
-  "publisher":{
-    "@type":"Person",
-    "name":"Sameer Al Sahab"
-  },
-  "url":"https://sameeralsahab.github.io/EastWestUniversity-Portal/",
-  "image":"https://sameeralsahab.github.io/EastWestUniversity-Portal/images/logo.png",
-  "offers":{
-    "@type":"Offer",
-    "price":"0",
-    "priceCurrency":"BDT"
-  }
-}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"East-West-University-Portal-App","applicationCategory":"EducationalApplication","operatingSystem":"Android","description":"Unofficial Android app for East West University students with class schedule, reminders, faculty info, CGPA calculator, scholarship checker, assignment cover generator, exam mode and Q&A forum.","creator":{"@type":"Person","name":"Sameer Al Sahab"},"url":"https://sameeralsahab.github.io/EastWestUniversity-Portal/","image":"https://sameeralsahab.github.io/EastWestUniversity-Portal/images/logo.png","offers":{"@type":"Offer","price":"0","priceCurrency":"BDT"}}
 </script>
-
 <style>
-:root {
-  --navy-950: #050C14;
-  --navy-900: #08141F;
-  --navy-850: #0C1E30;
-  --navy-800: #11263E;
-  --gold: #F2B33D;
-  --gold-glow: rgba(242, 179, 61, 0.35);
-  --cyan: #38BDF8;
-  --cyan-glow: rgba(56, 189, 248, 0.35);
-  --danger: #EF4444;
-  --text-primary: #F8FAFC;
-  --text-muted: #94A3B8;
-  --text-subtle: #64748B;
-  --glass-bg: rgba(17, 38, 62, 0.65);
-  --glass-border: rgba(255, 255, 255, 0.08);
+:root{
+  --bg:#071326; --panel:#0D2040; --panel2:#112a52; --line:#1c3459;
+  --text:#EAF0FA; --muted:#9DB0CC; --gold:#FFB92E; --gold-ink:#2b1c00;
+  --display:'Bricolage Grotesque',system-ui,sans-serif; --mono:'DM Mono',ui-monospace,monospace;
 }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:400 16px/1.6 var(--display);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:64px 64px;opacity:.35;
+  -webkit-mask-image:linear-gradient(#000,transparent 70%);mask-image:linear-gradient(#000,transparent 70%)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 
-* { box-sizing: border-box; }
+/* hero */
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;padding:64px 0 72px}
+.brand{display:flex;align-items:center;gap:12px;margin-bottom:34px;color:var(--muted);font-size:14px;font-weight:500}
+.brand img{width:40px;height:40px;border-radius:11px;background:var(--panel);border:1px solid var(--line);padding:4px}
+h1{margin:0;font-weight:800;font-size:clamp(40px,7.4vw,84px);line-height:.95;letter-spacing:-.04em;font-variation-settings:"opsz" 96}
+h1 span{display:block}
+h1 span:nth-child(2){color:var(--gold)}
+.tag{margin:26px 0 0;font-size:20px;font-weight:500;color:var(--text);max-width:30ch}
+.lede{margin:14px 0 0;color:var(--muted);max-width:52ch}
+.quote{margin:24px 0 0;padding-left:16px;border-left:3px solid var(--gold);font-weight:500;max-width:46ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 24px;border-radius:14px;background:var(--gold);color:var(--gold-ink);font-weight:700;text-decoration:none;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:#ffc85a}
+.btn.disabled{opacity:.5;pointer-events:none}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.btn.ghost:hover{background:var(--panel)}
+.meta{font-family:var(--mono);font-size:13px;color:var(--muted)}
 
-body {
-  margin: 0;
-  background-color: var(--navy-950);
-  background-image:
-    radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.12) 0%, transparent 50%),
-    radial-gradient(circle at 80% 40%, rgba(242, 179, 61, 0.08) 0%, transparent 40%);
-  color: var(--text-primary);
-  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.6;
-  overflow-x: hidden;
+/* phone + notification (the one moment) */
+.stage{position:relative;justify-self:center;width:min(300px,78vw)}
+.phone{aspect-ratio:9/19;border-radius:38px;border:8px solid #16294a;background:#000;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.55),0 0 0 1px var(--line)}
+.phone img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.notif{position:absolute;left:-34px;right:-34px;top:34px;display:flex;gap:12px;padding:14px 16px;border-radius:20px;background:#f4f7fc;color:#0b1b33;box-shadow:0 18px 40px rgba(0,0,0,.5);
+  transform:translateY(-140%);opacity:0;animation:drop .7s .9s cubic-bezier(.2,.9,.25,1.15) forwards}
+.notif svg{flex:none;width:34px;height:34px;padding:7px;border-radius:50%;background:#0B2A5B;fill:#fff}
+.notif b{display:block;font-size:14px;line-height:1.3}
+.notif small{display:block;margin-top:3px;font-size:12.5px;color:#46566f;line-height:1.4}
+.notif .app{font-family:var(--mono);font-size:11px;color:#5b6b85;margin-bottom:2px}
+@keyframes drop{to{transform:none;opacity:1}}
+
+/* decoder */
+section{padding:72px 0;border-top:1px solid var(--line)}
+h2{margin:0 0 10px;font-size:clamp(28px,4.4vw,42px);line-height:1.05;letter-spacing:-.03em;font-weight:800}
+.sub{margin:0 0 32px;color:var(--muted);max-width:56ch}
+.decoder{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:28px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
+.codes{display:flex;gap:8px;flex-wrap:wrap}
+.code{width:52px;height:60px;border-radius:14px;border:1px solid var(--line);background:var(--bg);color:var(--muted);font:500 22px var(--mono);cursor:pointer;display:grid;place-items:center;transition:all .15s}
+.code:hover{border-color:var(--gold);color:var(--text)}
+.code[aria-pressed=true]{background:var(--gold);border-color:var(--gold);color:var(--gold-ink);transform:translateY(-3px)}
+.out{min-height:92px}
+.out .raw{font:500 14px var(--mono);color:var(--muted)}
+.out .days{font-size:clamp(20px,3vw,28px);font-weight:700;margin:4px 0}
+.out .rem{font:400 14px var(--mono);color:var(--gold)}
+
+/* features */
+.group{display:grid;grid-template-columns:260px 1fr;gap:36px;padding:36px 0;border-top:1px solid var(--line)}
+.group:first-of-type{border-top:0;padding-top:0}
+.group h3{margin:0;font-size:24px;letter-spacing:-.02em;position:sticky;top:20px;align-self:start}
+.group h3 small{display:block;margin-top:6px;font:400 14px/1.5 var(--display);color:var(--muted);letter-spacing:0}
+.rows{margin:0;padding:0;list-style:none}
+.rows li{padding:18px 0;border-bottom:1px solid var(--line)}
+.rows li:first-child{padding-top:0}
+.rows li:last-child{border-bottom:0}
+.rows h4{margin:0 0 4px;font-size:18px;font-weight:700}
+.rows p{margin:0;color:var(--muted);max-width:62ch}
+.rows b{color:var(--text);font-weight:600}
+.rows code{font:500 13px var(--mono);background:var(--panel2);padding:2px 7px;border-radius:6px;color:var(--gold)}
+.rows ul{margin:8px 0 0;padding-left:18px;color:var(--muted)}
+
+/* gallery */
+.gallery{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 22px 18px;margin:0 -22px;scrollbar-color:var(--line) transparent}
+.gallery img{flex:none;width:210px;aspect-ratio:9/19;object-fit:cover;object-position:top;border-radius:24px;border:1px solid var(--line);scroll-snap-align:start;background:var(--panel)}
+
+/* download */
+.dl{display:grid;grid-template-columns:1fr 1fr;gap:28px;background:var(--panel);border:1px solid var(--line);border-radius:28px;padding:34px}
+.dl h2{font-size:32px}
+.chlog{margin:0;padding-left:18px;color:var(--muted);font-size:15px}
+.chlog li{margin-bottom:6px}
+.hint{margin-top:14px;font-size:13px;color:var(--muted)}
+
+footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+footer p{max-width:70ch;margin:0 0 10px}
+footer a{color:var(--gold);font-weight:600;text-decoration:none}
+
+@media(max-width:860px){
+  .hero{grid-template-columns:1fr;gap:56px;padding-top:40px}
+  .stage{margin-top:8px}
+  .decoder,.dl,.group{grid-template-columns:1fr}
+  .group h3{position:static}
+  .notif{left:-14px;right:-14px}
 }
-
-.wrap {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 40px 20px 80px;
-}
-
-
-header {
-  text-align: center;
-  margin-bottom: 36px;
-  position: relative;
-}
-
-.logo-wrapper {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto 20px;
-}
-
-.logo-glow {
-  position: absolute;
-  inset: 0;
-  border-radius: 28px;
-  background: linear-gradient(135deg, var(--gold), var(--cyan));
-  filter: blur(16px);
-  opacity: 0.45;
-  animation: pulseGlow 4s ease-in-out infinite alternate;
-}
-
-.logo {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 26px;
-  background: var(--navy-900);
-  border: 1px solid rgba(242, 179, 61, 0.3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-}
-
-.logo img {
-  width: 72px;
-  height: 72px;
-  object-fit: contain;
-}
-
-h1 {
-  margin: 0;
-  font-size: 32px;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  background: linear-gradient(180deg, #FFFFFF 0%, #CBD5E1 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.subtitle {
-  color: var(--text-muted);
-  font-size: 15px;
-  margin-top: 10px;
-  max-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-badges {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 16px;
-  flex-wrap: wrap;
-}
-
-.chip {
-  padding: 4px 12px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 600;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--glass-border);
-  color: var(--text-muted);
-}
-
-.chip.highlight {
-  background: rgba(242, 179, 61, 0.1);
-  border-color: rgba(242, 179, 61, 0.3);
-  color: var(--gold);
-}
-
-
-.showcase-card {
-  background: var(--glass-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--glass-border);
-  border-radius: 24px;
-  padding: 24px;
-  margin-bottom: 24px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-}
-
-.cgpa-transform-box {
-  background: var(--navy-950);
-  border: 1px solid rgba(56, 189, 248, 0.2);
-  border-radius: 18px;
-  padding: 20px;
-  text-align: center;
-  margin-top: 12px;
-  position: relative;
-}
-
-.cgpa-label {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--text-subtle);
-  font-weight: 700;
-}
-
-.cgpa-display {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 8px;
-  font-family: monospace;
-}
-
-.cgpa-old {
-  font-size: 28px;
-  font-weight: 800;
-  color: var(--danger);
-  position: relative;
-  opacity: 0.6;
-}
-
-.cgpa-old::after {
-  content: '';
-  position: absolute;
-  left: -4px;
-  right: -4px;
-  top: 50%;
-  height: 3px;
-  background: var(--danger);
-  transform: rotate(-12deg);
-  box-shadow: 0 0 8px var(--danger);
-  animation: strikeAnim 2.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
-}
-
-.cgpa-arrow {
-  color: var(--text-subtle);
-  font-size: 20px;
-}
-
-.cgpa-new {
-  font-size: 36px;
-  font-weight: 800;
-  color: var(--gold);
-  text-shadow: 0 0 16px var(--gold-glow);
-  animation: popGlow 2.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
-}
-
-.cgpa-tagline {
-  font-size: 13px;
-  color: var(--cyan);
-  margin-top: 8px;
-  font-weight: 600;
-}
-
-
-.rule-card {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(15, 38, 71, 0.8));
-  border: 1px solid rgba(239, 68, 68, 0.3);
-  border-radius: 20px;
-  padding: 20px;
-  margin-bottom: 28px;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.rule-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 16px;
-  background: rgba(239, 68, 68, 0.2);
-  color: var(--danger);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  flex-shrink: 0;
-}
-
-.rule-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text-primary);
-  margin: 0 0 4px;
-}
-
-.rule-desc {
-  font-size: 13px;
-  color: var(--text-muted);
-  margin: 0;
-}
-
-.rule-desc strong {
-  color: var(--gold);
-}
-
-/* Feature Grid */
-.section-header {
-  margin: 32px 0 16px;
-  display: flex;
-  align-items: center;
-  justify-space-between: space-between;
-}
-
-.section-title {
-  margin: 0;
-  color: var(--gold);
-  font-size: 13px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.feature-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
-}
-
-@media(min-width: 580px) {
-  .feature-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.feature-box {
-  background: var(--navy-850);
-  border: 1px solid var(--glass-border);
-  border-radius: 18px;
-  padding: 18px;
-  transition: all 0.25s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.feature-box:hover {
-  transform: translateY(-2px);
-  border-color: rgba(242, 179, 61, 0.3);
-}
-
-.feature-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 10px;
-}
-
-.feature-icon-wrapper {
-  width: 38px;
-  height: 38px;
-  border-radius: 12px;
-  background: rgba(242, 179, 61, 0.1);
-  border: 1px solid rgba(242, 179, 61, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--gold);
-  font-size: 18px;
-  flex-shrink: 0;
-}
-
-.feature-box.cyan .feature-icon-wrapper {
-  background: rgba(56, 189, 248, 0.1);
-  border-color: rgba(56, 189, 248, 0.2);
-  color: var(--cyan);
-}
-
-.feature-box.danger .feature-icon-wrapper {
-  background: rgba(239, 68, 68, 0.1);
-  border-color: rgba(239, 68, 68, 0.2);
-  color: var(--danger);
-}
-
-.feature-name {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--text-primary);
-  margin: 0;
-}
-
-.feature-detail {
-  font-size: 13px;
-  color: var(--text-muted);
-  margin: 0;
-  line-height: 1.5;
-}
-
-.feature-badge {
-  display: inline-block;
-  align-self: flex-start;
-  margin-top: 12px;
-  padding: 2px 8px;
-  border-radius: 6px;
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  background: rgba(255,255,255,0.06);
-  color: var(--text-subtle);
-}
-
-/* Screenshots */
-.screenshot-grid {
-  display: flex;
-  gap: 14px;
-  overflow-x: auto;
-  padding: 4px 4px 14px;
-  scrollbar-width: thin;
-}
-
-.screenshot-grid img {
-  width: 180px;
-  border-radius: 16px;
-  border: 1px solid var(--glass-border);
-  flex-shrink: 0;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-}
-
-
-.notice {
-  background: rgba(56, 189, 248, 0.05);
-  border: 1px solid rgba(56, 189, 248, 0.2);
-  border-radius: 20px;
-  padding: 20px;
-  color: var(--text-muted);
-  font-size: 14px;
-  margin: 28px 0;
-}
-
-.notice strong {
-  color: var(--cyan);
-}
-
-.download-card {
-  background: linear-gradient(180deg, var(--navy-800) 0%, var(--navy-900) 100%);
-  border: 1px solid rgba(242, 179, 61, 0.3);
-  border-radius: 26px;
-  padding: 32px 24px;
-  text-align: center;
-  margin-top: 20px;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-}
-
-.version-badge {
-  display: inline-block;
-  padding: 6px 16px;
-  background: rgba(255, 255, 255, 0.08);
-  color: var(--text-muted);
-  border-radius: 999px;
-  font-size: 13px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.btn-download {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
-  padding: 18px;
-  background: linear-gradient(135deg, var(--gold) 0%, #E5A125 100%);
-  color: var(--navy-950);
-  text-decoration: none;
-  border-radius: 16px;
-  font-weight: 800;
-  font-size: 16px;
-  transition: all 0.25s ease;
-  box-shadow: 0 8px 24px var(--gold-glow);
-}
-
-.btn-download:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(135deg, #FFC24D 0%, #D89A2A 100%);
-}
-
-.btn-download.disabled {
-  opacity: 0.5;
-  pointer-events: none;
-  box-shadow: none;
-}
-
-.hint {
-  margin-top: 14px;
-  font-size: 12px;
-  color: var(--text-subtle);
-}
-
-.changelog {
-  margin: 0;
-  padding-left: 20px;
-  color: var(--text-muted);
-  font-size: 14px;
-}
-
-.changelog li {
-  margin-bottom: 8px;
-}
-
-footer {
-  text-align: center;
-  color: var(--text-subtle);
-  font-size: 13px;
-  margin-top: 40px;
-}
-
-footer a {
-  color: var(--gold);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-@keyframes pulseGlow {
-  0% { transform: scale(0.95); opacity: 0.3; }
-  100% { transform: scale(1.08); opacity: 0.6; }
-}
-
-@keyframes strikeAnim {
-  0%, 100% { opacity: 0.5; }
-  50% { opacity: 0.9; }
-}
-
-@keyframes popGlow {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .notif{animation:none;transform:none;opacity:1}
+  .btn,.code{transition:none}
 }
 </style>
 </head>
-
 <body>
-
 <div class="wrap">
 
-  <!-- Header -->
-  <header>
-    <div class="logo-wrapper">
-      <div class="logo-glow"></div>
-      <div class="logo">
-        <img src="./images/logo.png" alt="East West University Logo">
+  <header class="hero">
+    <div>
+      <div class="brand"><img src="./images/logo.png" alt="East West University logo"><span>Unofficial app by Sameer Al Sahab</span></div>
+      <h1><span>East-West-</span><span>University-</span><span>Portal-App</span></h1>
+      <p class="tag">Unofficial portal app with many useful features for EWU students.</p>
+      <p class="lede">Sign in once and get your class schedule, reminders, faculty info, CGPA and scholarship tools, assignment covers, an exam focus mode and a student Q&amp;A forum, all in one fast, mobile-friendly app.</p>
+      <blockquote class="quote">Stop fighting the zoomed-in desktop portal on your phone. Open the app, unlock, and you're in.</blockquote>
+      <div class="cta">
+        <a href="#download" class="btn" id="heroBtn">Download APK</a>
+        <a href="#features" class="btn ghost">See features</a>
+        <span class="meta" id="heroVer"></span>
       </div>
     </div>
-
-    <h1>EWU Portal App</h1>
-    <div class="subtitle">
-      A smoother, faster way to access the East West University student portal on Android. No captcha math, no repetitive logins.
-    </div>
-
-    <div class="hero-badges">
-      <span class="chip highlight">v1.0.1</span>
-      <span class="chip">Study Companion</span>
-      <span class="chip">Biometric Security</span>
-      <span class="chip">Android Native</span>
+    <div class="stage" aria-label="App preview with a class reminder notification">
+      <div class="phone"><img src="screenshots/1.jpg" alt="EWU Portal home screen"></div>
+      <div class="notif" role="img" aria-label="Notification: Class in 10 minutes">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4a1.5 1.5 0 0 0-3 0v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1z"/></svg>
+        <div><div class="app">EWU Portal · now</div><b>Class in 10 min: CSE101 (Sec 2)</b><small>Time &amp; Room: MW 10:00 AM - 11:20 AM</small></div>
+      </div>
     </div>
   </header>
 
-
-  <div class="showcase-card">
-    <div style="text-align:center;">
-      <span class="chip highlight" style="margin-bottom: 8px;">Study Companion</span>
-      <h3 style="margin: 6px 0 0; font-size: 18px;">Block apps &amp; Make your Goals Alive</h3>
-      <p style="margin: 4px 0 14px; font-size: 13px; color: var(--text-muted);">
-        Calculate semester grades, track your overall CGPA, and plan target scores easily, open portal, class schedule in no time.
-      </p>
-    </div>
-
-    <div class="cgpa-transform-box">
-      <div class="cgpa-label">Target Progress</div>
-      <div class="cgpa-display">
-        <span class="cgpa-old">2.50</span>
-        <span class="cgpa-arrow">➔</span>
-        <span class="cgpa-new">3.96</span>
+  <section id="decoder">
+    <h2>Your routine, in plain English.</h2>
+    <p class="sub">The portal gives you codes like <span class="meta">MW 10:00 AM</span>. The app turns them into days you can read and sets your reminders. Tap the day codes to try it.</p>
+    <div class="decoder">
+      <div class="codes" role="group" aria-label="Day codes">
+        <button class="code" data-c="A" aria-pressed="false" title="Saturday">A</button>
+        <button class="code" data-c="S" aria-pressed="false" title="Sunday">S</button>
+        <button class="code" data-c="M" aria-pressed="true" title="Monday">M</button>
+        <button class="code" data-c="T" aria-pressed="false" title="Tuesday">T</button>
+        <button class="code" data-c="W" aria-pressed="true" title="Wednesday">W</button>
+        <button class="code" data-c="R" aria-pressed="false" title="Thursday">R</button>
+        <button class="code" data-c="F" aria-pressed="false" title="Friday">F</button>
       </div>
-      <div class="cgpa-tagline">Scholarship Goal Unlocked</div>
-    </div>
-  </div>
-
-
-  <div class="rule-card">
-    <div class="rule-icon">🔒</div>
-    <div>
-      <div class="rule-title">Your agreement, my rule.</div>
-      <div class="rule-desc">
-        Turn on <strong>Exam Mode</strong> during midterms and finals. Distraction apps and social media stay blocked until your scheduled study session ends.
+      <div class="out" aria-live="polite">
+        <div class="raw" id="raw"></div>
+        <div class="days" id="days"></div>
+        <div class="rem">Reminders at 9:30 AM and 9:50 AM</div>
       </div>
     </div>
-  </div>
+  </section>
 
+  <section id="features">
+    <h2>Everything for your semester.</h2>
+    <p class="sub">The full feature list, grouped by what you're trying to do.</p>
 
-  <div class="section-header">
-    <h2 class="section-title">Built for Daily Use. Get notifications before classes. No more attendance miss!! and QNA Community.</h2>
-  </div>
+    <div class="group">
+      <h3>Academics<small>Your classes, teachers and grades.</small></h3>
+      <ul class="rows">
+        <li><h4>Your Class Schedule</h4>
+          <p>Pick <b>any semester</b>. Raw SRTS codes become readable days and times (<code>MW</code> becomes Monday, Wednesday).</p>
+          <ul><li>Shows course, section, room, instructor, credits and withdraw/drop dates.</li>
+          <li><b>Export to PDF:</b> a clean, print-friendly landscape PDF of your routine.</li></ul></li>
+        <li><h4>Class reminders</h4><p>Notifications <b>30 and 10 minutes before every class</b>, with course, section, time and room.</p></li>
+        <li><h4>My Faculty Info</h4><p>Your instructors' names and <b>hidden email addresses</b> for any semester, with tap-to-copy.</p></li>
+        <li><h4>All Faculty Info</h4><p>The full semester course, section, instructor and time list with <b>live search</b> by course, faculty or time.</p></li>
+        <li><h4>CGPA Calculator</h4><p>Work out your semester GPA or your cumulative CGPA.</p></li>
+      </ul>
+    </div>
 
-  <div class="feature-grid">
+    <div class="group">
+      <h3>Tools and community<small>Small things that save you an hour.</small></h3>
+      <ul class="rows">
+        <li><h4>Scholarship Checker</h4><p>Enter your CGPA and admission term to see whether you qualify for <b>100% Merit</b>, <b>Dean's List</b> or <b>Medha Lalon</b>, based on EWU's CGPA bands.</p></li>
+        <li><h4>Assignment Cover Generator</h4><p>Creates the official EWU cover page as a <b>PDF</b>. Name and Student ID are pre-filled from your login, and the date defaults to today. Everything stays editable.</p></li>
+        <li><h4>Exam Mode</h4><p>A focus lock that blocks distracting apps (social media, games and similar) while you study or sit an exam. It uses an Android Accessibility Service that you enable yourself.</p></li>
+        <li><h4>Student Q&amp;A Forum</h4><p>Ask questions and answer classmates.</p></li>
+      </ul>
+    </div>
+  </section>
 
-    <div class="feature-box">
+  <section id="screens">
+    <h2>See it on your phone.</h2>
+    <p class="sub">Swipe through the app.</p>
+    <div class="gallery" tabindex="0" aria-label="App screenshots">
+      <img src="screenshots/1.jpg" alt="Home screen" loading="lazy">
+      <img src="screenshots/2.jpg" alt="Class schedule" loading="lazy">
+      <img src="screenshots/3.jpg" alt="Faculty info" loading="lazy">
+      <img src="screenshots/4.jpg" alt="CGPA calculator" loading="lazy">
+      <img src="screenshots/5.jpg" alt="Exam mode" loading="lazy">
+      <img src="screenshots/6.jpg" alt="Assignment cover" loading="lazy">
+    </div>
+  </section>
+
+  <section id="download">
+    <div class="dl">
       <div>
-        <div class="feature-header">
-          <div class="feature-icon-wrapper">⚡</div>
-          <h3 class="feature-name">Fast Auto Login</h3>
-        </div>
-        <p class="feature-detail">Save your credentials once and log in without typing your password or solving math captchas every morning.</p>
+        <h2>Get the app.</h2>
+        <p class="meta" id="versionBadge">Loading latest version...</p>
+        <p style="margin:18px 0 0"><a href="#" id="downloadBtn" class="btn disabled">Download APK</a></p>
+        <p class="hint" id="downloadHint">Direct APK download for Android 7.0 and newer. No Play Store account needed.</p>
       </div>
-      <span class="feature-badge">Convenience</span>
-    </div>
-
-    <div class="feature-box cyan">
-      <div>
-        <div class="feature-header">
-          <div class="feature-icon-wrapper">☝️</div>
-          <h3 class="feature-name">Biometric Protection</h3>
-        </div>
-        <p class="feature-detail">Unlock the app instantly using fingerprint or face recognition to keep your student data safe.</p>
+      <div id="changelogCard" hidden>
+        <h2 style="font-size:22px">What's new</h2>
+        <ul class="chlog" id="changelogList"></ul>
       </div>
-      <span class="feature-badge">Security</span>
     </div>
-
-    <div class="feature-box">
-      <div>
-        <div class="feature-header">
-          <div class="feature-icon-wrapper">📅</div>
-          <h3 class="feature-name">Readable Schedule &amp; PDF</h3>
-        </div>
-        <p class="feature-detail">Schedules are translated from SRTS codes into plain weekday names. Export clean PDF files anytime.</p>
-      </div>
-      <span class="feature-badge">Class Routine</span>
-    </div>
-
-    <div class="feature-box cyan">
-      <div>
-        <div class="feature-header">
-          <div class="feature-icon-wrapper">🔍</div>
-          <h3 class="feature-name">Faculty Directory</h3>
-        </div>
-        <p class="feature-detail">Find teacher emails, initial codes, and office locations that aren't easily visible on the web portal.</p>
-      </div>
-      <span class="feature-badge">Directory</span>
-    </div>
-
-    <div class="feature-box danger">
-      <div>
-        <div class="feature-header">
-          <div class="feature-icon-wrapper">🎯</div>
-          <h3 class="feature-name">Exam Focus Mode</h3>
-        </div>
-        <p class="feature-detail">Block distracting apps during study hours so you stay committed to your upcoming tests and coursework.</p>
-      </div>
-      <span class="feature-badge">Focus Tool</span>
-    </div>
-
-    <div class="feature-box">
-      <div>
-        <div class="feature-header">
-          <div class="feature-icon-wrapper">📄</div>
-          <h3 class="feature-name">Assignment Cover Generator</h3>
-        </div>
-        <p class="feature-detail">Generate properly formatted East West University cover pages in seconds, ready for printing or submission.</p>
-      </div>
-      <span class="feature-badge">Utility</span>
-    </div>
-
-    <div class="feature-box cyan">
-      <div>
-        <div class="feature-header">
-          <div class="feature-icon-wrapper">🎓</div>
-          <h3 class="feature-name">Scholarship Checker</h3>
-        </div>
-        <p class="feature-detail">Instantly check your eligibility for merit scholarships based on your current GPA and results.</p>
-      </div>
-      <span class="feature-badge">Academic Tool</span>
-    </div>
-
-    <div class="feature-box">
-      <div>
-        <div class="feature-header">
-          <div class="feature-icon-wrapper">📁</div>
-          <h3 class="feature-name">Direct File Uploads</h3>
-        </div>
-        <p class="feature-detail">Upload assignments and documents directly from your device or Google Drive without opening a browser.</p>
-      </div>
-      <span class="feature-badge">Portal Tool</span>
-    </div>
-
-  </div>
-
-  <!-- App Screenshots -->
-  <div class="section-header">
-    <h2 class="section-title">App Screenshots</h2>
-  </div>
-
-  <div class="screenshot-grid">
-    <img src="screenshots/1.jpg" alt="Home Screen">
-    <img src="screenshots/2.jpg" alt="Class Schedule">
-    <img src="screenshots/3.jpg" alt="Faculty Directory">
-    <img src="screenshots/4.jpg" alt="CGPA Calculator">
-    <img src="screenshots/5.jpg" alt="Exam Mode">
-    <img src="screenshots/6.jpg" alt="Cover Page Generator">
-  </div>
-
-
-  <div class="notice">
-    <strong>Development Update</strong><br>
-    The app is optimized to stay responsive even during high-traffic periods like course registration.
-  </div>
-
-
-  <div class="showcase-card" id="changelogCard" style="display:none; margin-bottom: 24px;">
-    <h2 class="section-title" style="margin-bottom: 12px;">What's New</h2>
-    <ul class="changelog" id="changelogList"></ul>
-  </div>
-
-
-  <div class="download-card">
-    <div class="version-badge" id="versionBadge">
-      Loading latest version...
-    </div>
-
-    <a href="#" id="downloadBtn" class="btn-download disabled">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-      <span>Download APK</span>
-    </a>
-
-    <div class="hint" id="downloadHint">
-      Direct APK download. Safe, verified, and no Play Store account required.
-    </div>
-  </div>
-
+  </section>
 
   <footer>
-    Developed by
-    <a href="https://github.com/SameerAlSahab" target="_blank" rel="noopener">
-      Sameer Al Sahab
-    </a>
+    <p><em>Disclaimer: This is an independent, unofficial application created to improve user experience for students. It is not officially affiliated with, maintained by, or endorsed by East West University.</em></p>
+    <p>Developed by <a href="https://github.com/SameerAlSahab" target="_blank" rel="noopener">Sameer Al Sahab</a></p>
   </footer>
-
 </div>
 
 <script>
-const UPDATE_JSON_URL = "./update.json";
+// Day-code decoder
+const NAMES={A:'Saturday',S:'Sunday',M:'Monday',T:'Tuesday',W:'Wednesday',R:'Thursday',F:'Friday'};
+const btns=[...document.querySelectorAll('.code')];
+function render(){
+  const on=btns.filter(b=>b.getAttribute('aria-pressed')==='true').map(b=>b.dataset.c);
+  document.getElementById('raw').textContent=(on.join('')||'--')+' 10:00 AM';
+  document.getElementById('days').textContent=on.length?on.map(c=>NAMES[c]).join(', ')+' at 10:00 AM':'Pick at least one day';
+}
+btns.forEach(b=>b.addEventListener('click',()=>{b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')!=='true');render()}));
+render();
 
-fetch(UPDATE_JSON_URL, { cache: "no-cache" })
-  .then(res => {
-    if (!res.ok) throw new Error();
-    return res.json();
-  })
-  .then(data => {
-    document.getElementById("versionBadge").textContent = `Version ${data.version || "Unknown"}`;
-
-    if (data.download_url) {
-      const btn = document.getElementById("downloadBtn");
-      btn.href = data.download_url;
-      btn.querySelector("span").textContent = `Download APK (v${data.version})`;
-      btn.classList.remove("disabled");
-    }
-
-    if (Array.isArray(data.changelog) && data.changelog.length) {
-      const list = document.getElementById("changelogList");
-      data.changelog.forEach(item => {
-        const li = document.createElement("li");
-        li.textContent = item;
-        list.appendChild(li);
-      });
-      document.getElementById("changelogCard").style.display = "block";
-    }
-  })
-  .catch(() => {
-    document.getElementById("versionBadge").textContent = "Unable to load version info";
-    document.getElementById("downloadHint").textContent = "Please download the latest APK directly from GitHub Releases.";
-  });
+// Latest release info
+fetch('./update.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
+  const v=d.version||'';
+  document.getElementById('versionBadge').textContent='Version '+(v||'unknown')+(d.release_date?' · '+d.release_date:'');
+  document.getElementById('heroVer').textContent=v?'v'+v:'';
+  if(d.download_url){
+    for(const id of['downloadBtn','heroBtn']){const a=document.getElementById(id);a.href=d.download_url}
+    const b=document.getElementById('downloadBtn');b.textContent='Download APK'+(v?' (v'+v+')':'');b.classList.remove('disabled');
+  }
+  if(Array.isArray(d.changelog)&&d.changelog.length){
+    const l=document.getElementById('changelogList');
+    d.changelog.forEach(t=>{const li=document.createElement('li');li.textContent=t;l.appendChild(li)});
+    document.getElementById('changelogCard').hidden=false;
+  }
+}).catch(()=>{
+  document.getElementById('versionBadge').textContent='Unable to load version info';
+  document.getElementById('downloadHint').textContent='Please download the latest APK from GitHub Releases.';
+});
 </script>
-
 </body>
 </html>
