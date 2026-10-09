@@ -36,9 +36,25 @@ Sign in once and get your class schedule, reminders, faculty info, CGPA and scho
 - **Exam Mode:** A focus lock that blocks distracting apps (social media, games and similar) while you study or sit an exam. It uses an Android Accessibility Service that you enable yourself.
 - **Student Q&A Forum:**
   - Ask questions and answer classmates
+  
+### Document Scanner 
+- **Free CamScanner, no watermark:** Scan with your camera or import photos. The app finds the page edges and crops them. Many pages become **one PDF**. No premium plan, no watermark.
+- **Search inside your scans:** Turn on text recognition and find any document by a word written inside it. It runs **on your phone**, nothing is uploaded.
+- **Sort and arrange your documents:** Sort the list by **name, date or size** (ascending or descending). Use **folders, tags and favorites** to keep everything in order. Deleted files stay in the bin for 30 days.
+
+### Works offline 
+- **Saved semesters:** Every semester you open is saved on your phone. Without internet you can still see your **rooms, times, sections and faculty info**.
+- **Internet check:** If you open the portal with no internet, the app tells you. Class Schedule and Faculty Info show "No internet connection" and open your saved semesters instead.
+- Reminders keep working without internet.
+
+### Look and feel 
+- **Material You (Monet) design** on every screen. Colors follow your wallpaper, or pick your own color and dark/light mode in **Appearance**.
+- Feedback form in the app reaches the developer (me) directly.
 ---
 
 
 Download from >> https://sameeralsahab.github.io/EastWestUniversity-Portal
 
 *Disclaimer: This is an independent, unofficial application created to improve user experience for students. It is not officially affiliated with, maintained by, or endorsed by East West University.*
+
+
