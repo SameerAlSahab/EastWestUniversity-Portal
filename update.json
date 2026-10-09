@@ -1,12 +1,17 @@
 {
-  "version": "1.0.8",
-  "version_code": 9,
-  "release_date": "2026-10-7",
+  "version": "1.0.9",
+  "version_code": 10,
+  "release_date": "2026-10-9",
   "download_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/app/ewu_portal.apk",
   "changelog_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/CHANGELOG.md",
   "changelog": [
-    "Fixed Status Bar UI override and added class reminders working in most android devices."
+    "Added Free CamScanner without watermark. Sort your documents easily in one app",
+    "Added Term Paper generator with teammates",
+    "New Material UI",
+    "Now the app will still work in offline",
+    "Reminders, saved semester details can be seen offline and anywhere",
+    "EWU Chat among all students."
   ],
-  "min_supported_version_code": 9,
+  "min_supported_version_code": 10,
   "force_update": true
 }
