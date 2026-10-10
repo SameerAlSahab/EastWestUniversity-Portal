@@ -1,11 +1,12 @@
 {
-  "version": "1.1.2",
-  "version_code": 13,
-  "release_date": "2026-10-10",
+  "version": "1.1.3",
+  "version_code": 14,
+  "release_date": "2026-10-11",
   "download_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/app/ewu_portal.apk",
   "changelog_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/CHANGELOG.md",
   "changelog": [
-    "Fixed Credit Counts (New Update!!)",
+    "Thanks Israt Jahan for his insane ideas of mute dropped/w courses and Assignment group and other optional fields (New Update!!)",
+    "Fixed Credit Counts",
     "Added Free CamScanner without watermark. Sort your documents easily in one app",
     "Added Term Paper generator with teammates",
     "New Material UI",
@@ -13,6 +14,6 @@
     "Reminders, saved semester details can be seen offline and anywhere",
     "EWU Chat among all students."
   ],
-  "min_supported_version_code": 13,
+  "min_supported_version_code": 14,
   "force_update": true
 }
