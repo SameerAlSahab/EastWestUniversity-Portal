@@ -1,0 +1,89 @@
+name: Update faculty list
+
+on:
+  schedule:
+    - cron: "30 0 * * *"      # every day 06:30 
+  workflow_dispatch:          
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-courses
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download, validate, replace
+        env:
+          SOURCE_URL: ${{ secrets.COURSES_SOURCE_URL }}   # never printed
+        run: |
+          set +x
+          if [ -z "$SOURCE_URL" ]; then echo "COURSES_SOURCE_URL secret is missing"; exit 1; fi
+          # Mask the host too (secrets are masked as a whole string, not per part).
+          HOST="$(python3 -c 'import os,urllib.parse as u;print(u.urlparse(os.environ["SOURCE_URL"]).hostname or "")')"
+          [ -n "$HOST" ] && echo "::add-mask::$HOST"
+
+          python3 - <<'PY'
+          import json, os, sys, urllib.request
+
+          url = os.environ["SOURCE_URL"]
+          OUT, TMP = "courses.json", "courses.json.new"
+          MAX_BYTES = 8 * 1024 * 1024
+
+          def fail(msg):
+              print("::error::" + msg)   # generic text only, never the URL
+              sys.exit(1)
+
+          try:
+              req = urllib.request.Request(url, headers={"User-Agent": "courses-sync/1.0", "Accept": "application/json"})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  data = r.read(MAX_BYTES + 1)
+          except Exception as e:
+              fail("download failed (%s) - keeping previous copy" % type(e).__name__)
+
+          if len(data) > MAX_BYTES:
+              fail("file too large - keeping previous copy")
+          try:
+              new = json.loads(data)
+              courses = new["courses"]
+          except Exception:
+              fail("not valid courses JSON - keeping previous copy")
+
+          if not isinstance(courses, list) or not courses:
+              fail("no courses in file - keeping previous copy")
+          if new.get("total_courses") not in (None, 0, len(courses)):
+              fail("total_courses does not match - file truncated? keeping previous copy")
+          if not all(isinstance(c, dict) and c.get("course_code") for c in courses):
+              fail("malformed course rows - keeping previous copy")
+
+          if os.path.exists(OUT):
+              try:
+                  old_n = len(json.load(open(OUT, encoding="utf-8"))["courses"])
+                  if len(courses) < old_n * 0.7:
+                      fail("course count dropped %d -> %d (>30%%) - keeping previous copy" % (old_n, len(courses)))
+              except SystemExit:
+                  raise
+              except Exception:
+                  pass   # old file unreadable: accept the new one
+
+          open(TMP, "wb").write(data)
+          os.replace(TMP, OUT)
+          print("validated: %d courses, semester %s" % (len(courses), new.get("semester_name", "?")))
+          PY
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- courses.json; then
+            echo "no change"; exit 0
+          fi
+          DAY="$(TZ=Asia/Dhaka date +%d/%m/%Y)"
+          git config user.name  "git-bot"
+          git config user.email "git-bot@users.noreply.github.com"
+          git add courses.json
+          git commit -m "git bots update: faculty list as of day $DAY"
+          git push
