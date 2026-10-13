@@ -1,10 +1,11 @@
 {
-  "version": "1.1.4",
-  "version_code": 15,
-  "release_date": "2026-10-12",
+  "version": "1.1.5",
+  "version_code": 16,
+  "release_date": "2026-10-13",
   "download_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/app/ewu_portal.apk",
   "changelog_url": "https://raw.githubusercontent.com/SameerAlSahab/EastWestUniversity-Portal/main/CHANGELOG.md",
   "changelog": [
+    "Fixed all bugs; now app is final; not beta anymore (no more multiple day updates!!)",
     "Added realtime all faculty list with open seats count (updates every time!!)",
     "Added PDF/Photos/Files and Voice Recording and reply option in social messages. (new)",
     "Share app to get XP",
@@ -17,6 +18,6 @@
     "Reminders, saved semester details can be seen offline and anywhere",
     "EWU Chat among all students."
   ],
-  "min_supported_version_code": 15,
+  "min_supported_version_code": 16,
   "force_update": true
 }
