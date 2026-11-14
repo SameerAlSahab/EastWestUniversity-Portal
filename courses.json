@@ -3,8 +3,8 @@
   "website": "https://ewu-faculty-explorer.azurewebsites.net/",
   "semester_id": 141,
   "semester_name": "Fall 2026",
-  "last_refreshed_at": "2026-11-10T13:08:19.712616+00:00",
-  "last_refreshed_timestamp": 1794316099.712616,
+  "last_refreshed_at": "2026-11-13T12:54:46.030253+00:00",
+  "last_refreshed_timestamp": 1794574486.0302534,
   "total_courses": 2161,
   "courses": [
     {
@@ -127,8 +127,8 @@
       "email": "thd@ewubd.edu",
       "section_id": 71213,
       "seat_capacity": 41,
-      "seat_taken": 40,
-      "seats_available": 1,
+      "seat_taken": 38,
+      "seats_available": 3,
       "status": "Open",
       "slots": [
         {
@@ -281,8 +281,8 @@
       "email": "anup@ewubd.edu",
       "section_id": 71031,
       "seat_capacity": 45,
-      "seat_taken": 44,
-      "seats_available": 1,
+      "seat_taken": 43,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -2409,8 +2409,8 @@
       "email": "iftekhar.dipta@ewubd.edu",
       "section_id": 69722,
       "seat_capacity": 38,
-      "seat_taken": 37,
-      "seats_available": 1,
+      "seat_taken": 36,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -2765,8 +2765,8 @@
       "email": "mdtawfiq@ewubd.edu",
       "section_id": 70754,
       "seat_capacity": 38,
-      "seat_taken": 33,
-      "seats_available": 5,
+      "seat_taken": 32,
+      "seats_available": 6,
       "status": "Open",
       "slots": [
         {
@@ -2957,8 +2957,8 @@
       "email": "mdtawfiq@ewubd.edu",
       "section_id": 70728,
       "seat_capacity": 30,
-      "seat_taken": 27,
-      "seats_available": 3,
+      "seat_taken": 26,
+      "seats_available": 4,
       "status": "Open",
       "slots": [
         {
@@ -2983,8 +2983,8 @@
       "email": "fuad.huda@ewubd.edu",
       "section_id": 70729,
       "seat_capacity": 30,
-      "seat_taken": 26,
-      "seats_available": 4,
+      "seat_taken": 25,
+      "seats_available": 5,
       "status": "Open",
       "slots": [
         {
@@ -3205,8 +3205,8 @@
       "email": "dewan.islam@ewubd.edu",
       "section_id": 71422,
       "seat_capacity": 20,
-      "seat_taken": 19,
-      "seats_available": 1,
+      "seat_taken": 18,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -3309,8 +3309,8 @@
       "email": "jarin.heia@ewubd.edu",
       "section_id": 70718,
       "seat_capacity": 30,
-      "seat_taken": 11,
-      "seats_available": 19,
+      "seat_taken": 10,
+      "seats_available": 20,
       "status": "Open",
       "slots": [
         {
@@ -4669,8 +4669,8 @@
       "email": "asrafullahrahat@gmail.com",
       "section_id": 69754,
       "seat_capacity": 40,
-      "seat_taken": 38,
-      "seats_available": 2,
+      "seat_taken": 37,
+      "seats_available": 3,
       "status": "Open",
       "slots": [
         {
@@ -5363,11 +5363,11 @@
       "slots": [
         {
           "time": "MW 10:10 AM - 11:40 AM",
-          "room": "433"
+          "room": "AB3-1001"
         }
       ],
       "time_slot_display": "MW 10:10 AM - 11:40 AM",
-      "room_display": "433"
+      "room_display": "AB3-1001"
     },
     {
       "id": "CSE106-3",
@@ -5473,11 +5473,11 @@
       "slots": [
         {
           "time": "MW 10:10 AM - 11:40 AM",
-          "room": "AB3-1001"
+          "room": "433"
         }
       ],
       "time_slot_display": "MW 10:10 AM - 11:40 AM",
-      "room_display": "AB3-1001"
+      "room_display": "433"
     },
     {
       "id": "CSE106-10",
@@ -5901,8 +5901,8 @@
       "email": "fouzia.risdin@ewubd.edu",
       "section_id": 69838,
       "seat_capacity": 35,
-      "seat_taken": 27,
-      "seats_available": 8,
+      "seat_taken": 25,
+      "seats_available": 10,
       "status": "Open",
       "slots": [
         {
@@ -6409,8 +6409,8 @@
       "email": "ahmed.rasel@ewubd.edu",
       "section_id": 69845,
       "seat_capacity": 35,
-      "seat_taken": 34,
-      "seats_available": 1,
+      "seat_taken": 33,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -7641,8 +7641,8 @@
       "email": "omar.farrok@ewubd.edu",
       "section_id": 69882,
       "seat_capacity": 35,
-      "seat_taken": 32,
-      "seats_available": 3,
+      "seat_taken": 31,
+      "seats_available": 4,
       "status": "Open",
       "slots": [
         {
@@ -7857,8 +7857,8 @@
       "email": "khairum.islam@ewubd.edu",
       "section_id": 69901,
       "seat_capacity": 30,
-      "seat_taken": 29,
-      "seats_available": 1,
+      "seat_taken": 28,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -9193,8 +9193,8 @@
       "email": "nawab@ewubd.edu",
       "section_id": 69948,
       "seat_capacity": 45,
-      "seat_taken": 44,
-      "seats_available": 1,
+      "seat_taken": 43,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -9281,8 +9281,8 @@
       "email": "fouzia.risdin@ewubd.edu",
       "section_id": 69953,
       "seat_capacity": 43,
-      "seat_taken": 40,
-      "seats_available": 3,
+      "seat_taken": 39,
+      "seats_available": 4,
       "status": "Open",
       "slots": [
         {
@@ -10389,8 +10389,8 @@
       "email": "tahsin.banna@ewubd.edu",
       "section_id": 69991,
       "seat_capacity": 32,
-      "seat_taken": 28,
-      "seats_available": 4,
+      "seat_taken": 27,
+      "seats_available": 5,
       "status": "Open",
       "slots": [
         {
@@ -12509,8 +12509,8 @@
       "email": "nishat.mahin@ewubd.edu",
       "section_id": 70693,
       "seat_capacity": 41,
-      "seat_taken": 39,
-      "seats_available": 2,
+      "seat_taken": 38,
+      "seats_available": 3,
       "status": "Open",
       "slots": [
         {
@@ -12775,8 +12775,8 @@
       "email": "wilfred.rodrigues@ewubd.edu",
       "section_id": 70680,
       "seat_capacity": 40,
-      "seat_taken": 35,
-      "seats_available": 5,
+      "seat_taken": 34,
+      "seats_available": 6,
       "status": "Open",
       "slots": [
         {
@@ -12801,8 +12801,8 @@
       "email": "abonti.barkat@ewubd.edu",
       "section_id": 70681,
       "seat_capacity": 41,
-      "seat_taken": 39,
-      "seats_available": 2,
+      "seat_taken": 38,
+      "seats_available": 3,
       "status": "Open",
       "slots": [
         {
@@ -13207,9 +13207,9 @@
       "email": "ehsanur@ewubd.edu",
       "section_id": 70789,
       "seat_capacity": 42,
-      "seat_taken": 42,
-      "seats_available": 0,
-      "status": "Full",
+      "seat_taken": 41,
+      "seats_available": 1,
+      "status": "Open",
       "slots": [
         {
           "time": "MW 08:30 AM - 10:00 AM",
@@ -13963,8 +13963,8 @@
       "email": "kazi.Muzib@ewubd.edu",
       "section_id": 70821,
       "seat_capacity": 45,
-      "seat_taken": 40,
-      "seats_available": 5,
+      "seat_taken": 39,
+      "seats_available": 6,
       "status": "Open",
       "slots": [
         {
@@ -14279,8 +14279,8 @@
       "email": "muntasir@ewubd.edu",
       "section_id": 70835,
       "seat_capacity": 44,
-      "seat_taken": 42,
-      "seats_available": 2,
+      "seat_taken": 41,
+      "seats_available": 3,
       "status": "Open",
       "slots": [
         {
@@ -15127,8 +15127,8 @@
       "email": "kamanashis.saha@ewubd.edu",
       "section_id": 70040,
       "seat_capacity": 30,
-      "seat_taken": 29,
-      "seats_available": 1,
+      "seat_taken": 28,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -15489,9 +15489,9 @@
       "email": "ratil.eee05@gmail.com",
       "section_id": 70055,
       "seat_capacity": 32,
-      "seat_taken": 32,
-      "seats_available": 0,
-      "status": "Full",
+      "seat_taken": 31,
+      "seats_available": 1,
+      "status": "Open",
       "slots": [
         {
           "time": "MW 11:50 AM - 01:20 PM",
@@ -20527,8 +20527,8 @@
       "email": "s.mahmudurrahman@ewubd.edu",
       "section_id": 70554,
       "seat_capacity": 40,
-      "seat_taken": 19,
-      "seats_available": 21,
+      "seat_taken": 18,
+      "seats_available": 22,
       "status": "Open",
       "slots": [
         {
@@ -21355,8 +21355,8 @@
       "email": "zohur@ewubd.edu",
       "section_id": 70397,
       "seat_capacity": 24,
-      "seat_taken": 21,
-      "seats_available": 3,
+      "seat_taken": 19,
+      "seats_available": 5,
       "status": "Open",
       "slots": [
         {
@@ -23159,9 +23159,9 @@
       "email": "khalid.ahsan@ewubd.edu",
       "section_id": 71160,
       "seat_capacity": 46,
-      "seat_taken": 46,
-      "seats_available": 0,
-      "status": "Full",
+      "seat_taken": 45,
+      "seats_available": 1,
+      "status": "Open",
       "slots": [
         {
           "time": "MW 10:10 AM - 11:40 AM",
@@ -23625,9 +23625,9 @@
       "email": "tariqur.rahman@ewubd.edu",
       "section_id": 71178,
       "seat_capacity": 32,
-      "seat_taken": 31,
-      "seats_available": 1,
-      "status": "Open",
+      "seat_taken": 32,
+      "seats_available": 0,
+      "status": "Full",
       "slots": [
         {
           "time": "ST 11:50 AM - 01:20 PM",
@@ -27953,11 +27953,11 @@
         },
         {
           "time": "S 04:50 PM - 06:20 PM",
-          "room": "FUB-501"
+          "room": "112"
         }
       ],
       "time_slot_display": "T 04:50 PM - 06:20 PM \u2022 S 04:50 PM - 06:20 PM",
-      "room_display": "222, FUB-501"
+      "room_display": "222, 112"
     },
     {
       "id": "ITB7301-6",
@@ -31217,8 +31217,8 @@
       "email": "sis@ewubd.edu",
       "section_id": 70147,
       "seat_capacity": 41,
-      "seat_taken": 38,
-      "seats_available": 3,
+      "seat_taken": 37,
+      "seats_available": 4,
       "status": "Open",
       "slots": [
         {
@@ -31427,8 +31427,8 @@
       "email": "nurul.huda@ewubd.edu",
       "section_id": 70165,
       "seat_capacity": 40,
-      "seat_taken": 35,
-      "seats_available": 5,
+      "seat_taken": 34,
+      "seats_available": 6,
       "status": "Open",
       "slots": [
         {
@@ -31493,8 +31493,8 @@
       "email": "anup.datta@ewubd.edu",
       "section_id": 70156,
       "seat_capacity": 40,
-      "seat_taken": 36,
-      "seats_available": 4,
+      "seat_taken": 32,
+      "seats_available": 8,
       "status": "Open",
       "slots": [
         {
@@ -31515,8 +31515,8 @@
       "email": "anup.datta@ewubd.edu",
       "section_id": 70157,
       "seat_capacity": 40,
-      "seat_taken": 39,
-      "seats_available": 1,
+      "seat_taken": 38,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -31537,8 +31537,8 @@
       "email": "smmahmudul.hasan@ewubd.edu",
       "section_id": 70158,
       "seat_capacity": 40,
-      "seat_taken": 35,
-      "seats_available": 5,
+      "seat_taken": 34,
+      "seats_available": 6,
       "status": "Open",
       "slots": [
         {
@@ -31559,8 +31559,8 @@
       "email": "mahfuj.rahman@ewubd.edu",
       "section_id": 70159,
       "seat_capacity": 40,
-      "seat_taken": 36,
-      "seats_available": 4,
+      "seat_taken": 35,
+      "seats_available": 5,
       "status": "Open",
       "slots": [
         {
@@ -31603,8 +31603,8 @@
       "email": "nepal.chandra@ewubd.edu",
       "section_id": 70161,
       "seat_capacity": 40,
-      "seat_taken": 38,
-      "seats_available": 2,
+      "seat_taken": 37,
+      "seats_available": 3,
       "status": "Open",
       "slots": [
         {
@@ -32389,8 +32389,8 @@
       "email": "mezbahuddin.ahmed@ewubd.edu",
       "section_id": 70899,
       "seat_capacity": 35,
-      "seat_taken": 31,
-      "seats_available": 4,
+      "seat_taken": 30,
+      "seats_available": 5,
       "status": "Open",
       "slots": [
         {
@@ -32735,8 +32735,8 @@
       "email": "sarwar.alam@ewubd.edu",
       "section_id": 70712,
       "seat_capacity": 40,
-      "seat_taken": 36,
-      "seats_available": 4,
+      "seat_taken": 35,
+      "seats_available": 5,
       "status": "Open",
       "slots": [
         {
@@ -33011,8 +33011,8 @@
       "email": "shahinur.rahman@ewubd.edu",
       "section_id": 70916,
       "seat_capacity": 45,
-      "seat_taken": 42,
-      "seats_available": 3,
+      "seat_taken": 41,
+      "seats_available": 4,
       "status": "Open",
       "slots": [
         {
@@ -34571,8 +34571,8 @@
       "email": "md.masum@ewubd.edu",
       "section_id": 70653,
       "seat_capacity": 45,
-      "seat_taken": 37,
-      "seats_available": 8,
+      "seat_taken": 36,
+      "seats_available": 9,
       "status": "Open",
       "slots": [
         {
@@ -35141,8 +35141,8 @@
       "email": "ashif@ewubd.edu",
       "section_id": 71096,
       "seat_capacity": 38,
-      "seat_taken": 36,
-      "seats_available": 2,
+      "seat_taken": 33,
+      "seats_available": 5,
       "status": "Open",
       "slots": [
         {
@@ -36935,8 +36935,8 @@
       "email": "akm.masud@ewubd.edu",
       "section_id": 69705,
       "seat_capacity": 40,
-      "seat_taken": 33,
-      "seats_available": 7,
+      "seat_taken": 32,
+      "seats_available": 8,
       "status": "Open",
       "slots": [
         {
@@ -47125,8 +47125,8 @@
       "email": "aymaan.fyroz@ewubd.edu",
       "section_id": 70197,
       "seat_capacity": 43,
-      "seat_taken": 38,
-      "seats_available": 5,
+      "seat_taken": 37,
+      "seats_available": 6,
       "status": "Open",
       "slots": [
         {
@@ -47605,9 +47605,9 @@
       "email": "nahid.farzana@ewubd.edu",
       "section_id": 70206,
       "seat_capacity": 30,
-      "seat_taken": 30,
-      "seats_available": 0,
-      "status": "Full",
+      "seat_taken": 29,
+      "seats_available": 1,
+      "status": "Open",
       "slots": [
         {
           "time": "MW 04:50 PM - 06:20 PM",
@@ -48051,8 +48051,8 @@
       "email": "mahbub.alam@ewubd.edu",
       "section_id": 70231,
       "seat_capacity": 40,
-      "seat_taken": 39,
-      "seats_available": 1,
+      "seat_taken": 38,
+      "seats_available": 2,
       "status": "Open",
       "slots": [
         {
@@ -48073,8 +48073,8 @@
       "email": "mahbub.alam@ewubd.edu",
       "section_id": 70232,
       "seat_capacity": 40,
-      "seat_taken": 37,
-      "seats_available": 3,
+      "seat_taken": 36,
+      "seats_available": 4,
       "status": "Open",
       "slots": [
         {
@@ -51217,8 +51217,8 @@
       "email": "azmeri.khan@ewubd.edu",
       "section_id": 70256,
       "seat_capacity": 40,
-      "seat_taken": 20,
-      "seats_available": 20,
+      "seat_taken": 19,
+      "seats_available": 21,
       "status": "Open",
       "slots": [
         {
@@ -51437,8 +51437,8 @@
       "email": "aas@ewubd.edu",
       "section_id": 70257,
       "seat_capacity": 44,
-      "seat_taken": 42,
-      "seats_available": 2,
+      "seat_taken": 41,
+      "seats_available": 3,
       "status": "Open",
       "slots": [
         {
@@ -51577,8 +51577,8 @@
       "email": "sjjahan@ewubd.edu",
       "section_id": 70987,
       "seat_capacity": 40,
-      "seat_taken": 26,
-      "seats_available": 14,
+      "seat_taken": 25,
+      "seats_available": 15,
       "status": "Open",
       "slots": [
         {
