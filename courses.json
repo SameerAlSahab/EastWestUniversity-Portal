@@ -3,9 +3,9 @@
   "website": "https://ewu-faculty-explorer.azurewebsites.net/",
   "semester_id": 142,
   "semester_name": "Spring 2027",
-  "last_refreshed_at": "2026-11-23T06:35:11.380668+00:00",
-  "last_refreshed_timestamp": 1795415711.3806684,
-  "total_courses": 2587,
+  "last_refreshed_at": "2026-11-24T09:12:49.016805+00:00",
+  "last_refreshed_timestamp": 1795511569.0168047,
+  "total_courses": 2619,
   "courses": [
     {
       "id": "ACT101-1",
@@ -135,8 +135,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -3007,8 +3007,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 2,
+      "seats_available": 36,
       "status": "Open",
       "slots": [
         {
@@ -4412,16 +4412,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "S 08:00 AM - 10:00 AM",
-          "room": "LB-9A (Geotech Engineering Lab)"
-        },
-        {
           "time": "TR 10:10 AM - 11:40 AM",
           "room": "108"
+        },
+        {
+          "time": "T 03:00 PM - 05:00 PM",
+          "room": "LB-15 (Engineering Material Lab)"
         }
       ],
-      "time_slot_display": "S 08:00 AM - 10:00 AM \u2022 TR 10:10 AM - 11:40 AM",
-      "room_display": "LB-9A (Geotech Engineering Lab), 108"
+      "time_slot_display": "TR 10:10 AM - 11:40 AM \u2022 T 03:00 PM - 05:00 PM",
+      "room_display": "108, LB-15 (Engineering Material Lab)"
     },
     {
       "id": "CE201-2",
@@ -5048,12 +5048,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "ST 03:10 PM - 04:40 PM",
-          "room": "AB1-202"
+          "time": "S 01:30 PM - 03:00 PM",
+          "room": "AB2-602"
+        },
+        {
+          "time": "T 01:30 PM - 03:00 PM",
+          "room": "LB-9A (Geotech Engineering Lab)"
         }
       ],
-      "time_slot_display": "ST 03:10 PM - 04:40 PM",
-      "room_display": "AB1-202"
+      "time_slot_display": "S 01:30 PM - 03:00 PM \u2022 T 01:30 PM - 03:00 PM",
+      "room_display": "AB2-602, LB-9A (Geotech Engineering Lab)"
     },
     {
       "id": "CE361-1",
@@ -5294,12 +5298,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "ST 03:10 PM - 04:40 PM",
-          "room": "AB1-202"
+          "time": "S 01:30 PM - 03:00 PM",
+          "room": "AB2-602"
+        },
+        {
+          "time": "T 01:30 PM - 03:00 PM",
+          "room": "LB-9A (Geotech Engineering Lab)"
         }
       ],
-      "time_slot_display": "ST 03:10 PM - 04:40 PM",
-      "room_display": "AB1-202"
+      "time_slot_display": "S 01:30 PM - 03:00 PM \u2022 T 01:30 PM - 03:00 PM",
+      "room_display": "AB2-602, LB-9A (Geotech Engineering Lab)"
     },
     {
       "id": "CE453-1",
@@ -5788,36 +5796,36 @@
       "course_code": "CE7201",
       "section": 1,
       "department": "Department of Civil Engineering",
-      "faculty_name": "TBA",
-      "initial": "TBA",
-      "email": "",
-      "section_id": null,
+      "faculty_name": "DR. MD. TAWFIQ SARWAR",
+      "initial": "DMTS",
+      "email": "mdtawfiq@ewubd.edu",
+      "section_id": 76848,
       "seat_capacity": 30,
       "seat_taken": 0,
       "seats_available": 30,
       "status": "Open",
       "slots": [
         {
-          "time": "S 08:00 AM - 10:00 AM",
-          "room": "LB-9A (Geotech Engineering Lab)"
-        },
-        {
           "time": "TR 10:10 AM - 11:40 AM",
           "room": "108"
+        },
+        {
+          "time": "T 03:00 PM - 05:00 PM",
+          "room": "LB-15 (Engineering Material Lab)"
         }
       ],
-      "time_slot_display": "S 08:00 AM - 10:00 AM \u2022 TR 10:10 AM - 11:40 AM",
-      "room_display": "LB-9A (Geotech Engineering Lab), 108"
+      "time_slot_display": "TR 10:10 AM - 11:40 AM \u2022 T 03:00 PM - 05:00 PM",
+      "room_display": "108, LB-15 (Engineering Material Lab)"
     },
     {
       "id": "CE7201-2",
       "course_code": "CE7201",
       "section": 2,
       "department": "Department of Civil Engineering",
-      "faculty_name": "TBA",
-      "initial": "TBA",
-      "email": "",
-      "section_id": null,
+      "faculty_name": "DR. FUAD YASIN HUDA",
+      "initial": "FYH",
+      "email": "fuad.huda@ewubd.edu",
+      "section_id": 76849,
       "seat_capacity": 30,
       "seat_taken": 0,
       "seats_available": 30,
@@ -5843,7 +5851,7 @@
       "faculty_name": "TBA",
       "initial": "TBA",
       "email": "",
-      "section_id": null,
+      "section_id": 76850,
       "seat_capacity": 38,
       "seat_taken": 0,
       "seats_available": 38,
@@ -5865,7 +5873,7 @@
       "faculty_name": "TBA",
       "initial": "TBA",
       "email": "",
-      "section_id": null,
+      "section_id": 76851,
       "seat_capacity": 38,
       "seat_taken": 0,
       "seats_available": 38,
@@ -5928,10 +5936,10 @@
       "course_code": "CE7211",
       "section": 1,
       "department": "Department of Civil Engineering",
-      "faculty_name": "TBA",
-      "initial": "TBA",
-      "email": "",
-      "section_id": null,
+      "faculty_name": "DR. MD. NAIMUL HAQUE",
+      "initial": "DMNH",
+      "email": "naimul@ewubd.edu",
+      "section_id": 76852,
       "seat_capacity": 30,
       "seat_taken": 0,
       "seats_available": 30,
@@ -5954,10 +5962,10 @@
       "course_code": "CE7211",
       "section": 2,
       "department": "Department of Civil Engineering",
-      "faculty_name": "TBA",
-      "initial": "TBA",
-      "email": "",
-      "section_id": null,
+      "faculty_name": "DR. MD. NAIMUL HAQUE",
+      "initial": "DMNH",
+      "email": "naimul@ewubd.edu",
+      "section_id": 76853,
       "seat_capacity": 30,
       "seat_taken": 0,
       "seats_available": 30,
@@ -5980,10 +5988,10 @@
       "course_code": "CE7211",
       "section": 3,
       "department": "Department of Civil Engineering",
-      "faculty_name": "TBA",
-      "initial": "TBA",
-      "email": "",
-      "section_id": null,
+      "faculty_name": "Md. Taki Tajwar",
+      "initial": "TAJWAR",
+      "email": "taki.tajwar@ewubd.edu",
+      "section_id": 76854,
       "seat_capacity": 30,
       "seat_taken": 0,
       "seats_available": 30,
@@ -6233,8 +6241,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -6277,8 +6285,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 4,
+      "seats_available": 26,
       "status": "Open",
       "slots": [
         {
@@ -6381,8 +6389,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 3,
+      "seats_available": 27,
       "status": "Open",
       "slots": [
         {
@@ -6485,8 +6493,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 3,
+      "seats_available": 27,
       "status": "Open",
       "slots": [
         {
@@ -6548,6 +6556,28 @@
       ],
       "time_slot_display": "TR 08:30 AM - 10:00 AM",
       "room_display": "LB-10A (Transportation Lab)"
+    },
+    {
+      "id": "CHE100-1",
+      "course_code": "CHE100",
+      "section": 1,
+      "department": "Department of Mathematics and Data Science",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "ST 08:30 AM - 10:00 AM",
+          "room": "FUB-504"
+        }
+      ],
+      "time_slot_display": "ST 08:30 AM - 10:00 AM",
+      "room_display": "FUB-504"
     },
     {
       "id": "CHE109-1",
@@ -7454,12 +7484,16 @@
           "room": "533 (C. Lab-3)"
         },
         {
-          "time": "ST 04:50 PM - 06:20 PM",
-          "room": "FUB-701"
+          "time": "S 08:30 AM - 10:00 AM",
+          "room": "AB2-702"
+        },
+        {
+          "time": "T 08:30 AM - 10:00 AM",
+          "room": "AB2-701"
         }
       ],
-      "time_slot_display": "M 08:00 AM - 10:00 AM \u2022 ST 04:50 PM - 06:20 PM",
-      "room_display": "533 (C. Lab-3), FUB-701"
+      "time_slot_display": "M 08:00 AM - 10:00 AM \u2022 S 08:30 AM - 10:00 AM \u2022 T 08:30 AM - 10:00 AM",
+      "room_display": "533 (C. Lab-3), AB2-702, AB2-701"
     },
     {
       "id": "CS397-2",
@@ -9747,8 +9781,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -11331,8 +11365,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 3,
+      "seats_available": 27,
       "status": "Open",
       "slots": [
         {
@@ -11569,8 +11603,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 6,
+      "seats_available": 24,
       "status": "Open",
       "slots": [
         {
@@ -11885,8 +11919,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -12105,8 +12139,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 3,
+      "seats_available": 27,
       "status": "Open",
       "slots": [
         {
@@ -12317,8 +12351,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 6,
+      "seats_available": 24,
       "status": "Open",
       "slots": [
         {
@@ -12589,8 +12623,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 6,
+      "seats_available": 24,
       "status": "Open",
       "slots": [
         {
@@ -12831,8 +12865,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -12857,8 +12891,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -12887,8 +12921,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -12913,8 +12947,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -12969,8 +13003,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -13047,8 +13081,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 3,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -13327,8 +13361,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -13357,8 +13391,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -13383,8 +13417,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -13621,8 +13655,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 14,
+      "seats_available": 16,
       "status": "Open",
       "slots": [
         {
@@ -13643,8 +13677,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 21,
+      "seats_available": 9,
       "status": "Open",
       "slots": [
         {
@@ -13665,8 +13699,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -13873,8 +13907,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -13929,8 +13963,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 7,
+      "seats_available": 31,
       "status": "Open",
       "slots": [
         {
@@ -13951,8 +13985,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 2,
+      "seats_available": 36,
       "status": "Open",
       "slots": [
         {
@@ -13973,8 +14007,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 3,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -13995,8 +14029,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 3,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -14021,8 +14055,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 4,
+      "seats_available": 34,
       "status": "Open",
       "slots": [
         {
@@ -14065,8 +14099,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -14217,8 +14251,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -14269,8 +14303,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -14347,8 +14381,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -14425,8 +14459,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -14451,8 +14485,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 5,
+      "seats_available": 25,
       "status": "Open",
       "slots": [
         {
@@ -14477,8 +14511,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -14559,8 +14593,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -14637,8 +14671,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -14663,8 +14697,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -14715,8 +14749,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 3,
+      "seats_available": 27,
       "status": "Open",
       "slots": [
         {
@@ -14771,8 +14805,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -14797,8 +14831,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 15,
+      "seats_available": 15,
       "status": "Open",
       "slots": [
         {
@@ -14823,8 +14857,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 4,
+      "seats_available": 26,
       "status": "Open",
       "slots": [
         {
@@ -15035,8 +15069,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -15113,8 +15147,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 2,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -15165,8 +15199,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -15247,8 +15281,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 4,
+      "seats_available": 26,
       "status": "Open",
       "slots": [
         {
@@ -15303,8 +15337,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 8,
+      "seats_available": 30,
       "status": "Open",
       "slots": [
         {
@@ -15347,8 +15381,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -15439,8 +15473,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -15491,8 +15525,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 3,
+      "seats_available": 27,
       "status": "Open",
       "slots": [
         {
@@ -15569,8 +15603,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -16704,12 +16738,12 @@
       "status": "Open",
       "slots": [
         {
-          "time": "MW 04:50 PM - 06:20 PM",
-          "room": "AB3-1001"
+          "time": "MW 03:10 PM - 04:40 PM",
+          "room": "AB4-801"
         }
       ],
-      "time_slot_display": "MW 04:50 PM - 06:20 PM",
-      "room_display": "AB3-1001"
+      "time_slot_display": "MW 03:10 PM - 04:40 PM",
+      "room_display": "AB4-801"
     },
     {
       "id": "ECO7101-13",
@@ -16778,16 +16812,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "S 04:50 PM - 06:20 PM",
-          "room": "FUB-304"
+          "time": "S 03:10 PM - 04:40 PM",
+          "room": "AB4-301"
         },
         {
-          "time": "T 04:50 PM - 06:20 PM",
-          "room": "429"
+          "time": "T 03:10 PM - 04:40 PM",
+          "room": "AB4-302"
         }
       ],
-      "time_slot_display": "S 04:50 PM - 06:20 PM \u2022 T 04:50 PM - 06:20 PM",
-      "room_display": "FUB-304, 429"
+      "time_slot_display": "S 03:10 PM - 04:40 PM \u2022 T 03:10 PM - 04:40 PM",
+      "room_display": "AB4-301, AB4-302"
     },
     {
       "id": "ECO7101-16",
@@ -16852,11 +16886,11 @@
       "status": "Open",
       "slots": [
         {
-          "time": "ST 08:30 AM - 10:00 AM",
+          "time": "TR 08:30 AM - 10:00 AM",
           "room": "AB4-1002"
         }
       ],
-      "time_slot_display": "ST 08:30 AM - 10:00 AM",
+      "time_slot_display": "TR 08:30 AM - 10:00 AM",
       "room_display": "AB4-1002"
     },
     {
@@ -16874,12 +16908,12 @@
       "status": "Open",
       "slots": [
         {
-          "time": "MW 04:50 PM - 06:20 PM",
-          "room": "AB3-702"
+          "time": "MW 01:30 PM - 03:00 PM",
+          "room": "AB4-1002"
         }
       ],
-      "time_slot_display": "MW 04:50 PM - 06:20 PM",
-      "room_display": "AB3-702"
+      "time_slot_display": "MW 01:30 PM - 03:00 PM",
+      "room_display": "AB4-1002"
     },
     {
       "id": "ECO7101-20",
@@ -17238,16 +17272,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "R 04:50 PM - 06:20 PM",
-          "room": "FUB-502"
+          "time": "S 03:10 PM - 04:40 PM",
+          "room": "AB1-202"
         },
         {
-          "time": "T 04:50 PM - 06:20 PM",
-          "room": "359"
+          "time": "T 03:10 PM - 04:40 PM",
+          "room": "AB4-802"
         }
       ],
-      "time_slot_display": "R 04:50 PM - 06:20 PM \u2022 T 04:50 PM - 06:20 PM",
-      "room_display": "FUB-502, 359"
+      "time_slot_display": "S 03:10 PM - 04:40 PM \u2022 T 03:10 PM - 04:40 PM",
+      "room_display": "AB1-202, AB4-802"
     },
     {
       "id": "ECO7102-10",
@@ -17264,12 +17298,12 @@
       "status": "Open",
       "slots": [
         {
-          "time": "MW 08:30 AM - 10:00 AM",
-          "room": "AB4-402"
+          "time": "MW 04:50 PM - 06:20 PM",
+          "room": "FUB-404"
         }
       ],
-      "time_slot_display": "MW 08:30 AM - 10:00 AM",
-      "room_display": "AB4-402"
+      "time_slot_display": "MW 04:50 PM - 06:20 PM",
+      "room_display": "FUB-404"
     },
     {
       "id": "ECO7102-11",
@@ -17470,16 +17504,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "R 08:30 AM - 10:00 AM",
-          "room": "372"
+          "time": "S 08:30 AM - 10:00 AM",
+          "room": "AB4-601"
         },
         {
           "time": "T 08:30 AM - 10:00 AM",
-          "room": "AB4-202"
+          "room": "AB4-901"
         }
       ],
-      "time_slot_display": "R 08:30 AM - 10:00 AM \u2022 T 08:30 AM - 10:00 AM",
-      "room_display": "372, AB4-202"
+      "time_slot_display": "S 08:30 AM - 10:00 AM \u2022 T 08:30 AM - 10:00 AM",
+      "room_display": "AB4-601, AB4-901"
     },
     {
       "id": "ECO7104-6",
@@ -17842,12 +17876,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "MW 04:50 PM - 06:20 PM",
-          "room": "242 (Lecture Gallery)"
+          "time": "M 08:30 AM - 10:00 AM",
+          "room": "AB2-202"
+        },
+        {
+          "time": "W 08:30 AM - 10:00 AM",
+          "room": "AB2-702"
         }
       ],
-      "time_slot_display": "MW 04:50 PM - 06:20 PM",
-      "room_display": "242 (Lecture Gallery)"
+      "time_slot_display": "M 08:30 AM - 10:00 AM \u2022 W 08:30 AM - 10:00 AM",
+      "room_display": "AB2-202, AB2-702"
     },
     {
       "id": "ECO7220-1",
@@ -18798,12 +18836,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "MW 04:50 PM - 06:20 PM",
-          "room": "AB3-602"
+          "time": "M 01:30 PM - 03:00 PM",
+          "room": "FUB-503"
+        },
+        {
+          "time": "W 01:30 PM - 03:00 PM",
+          "room": "AB1-302"
         }
       ],
-      "time_slot_display": "MW 04:50 PM - 06:20 PM",
-      "room_display": "AB3-602"
+      "time_slot_display": "M 01:30 PM - 03:00 PM \u2022 W 01:30 PM - 03:00 PM",
+      "room_display": "FUB-503, AB1-302"
     },
     {
       "id": "EDC101-2",
@@ -18836,9 +18878,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -18866,9 +18908,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -18896,9 +18938,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -18926,9 +18968,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -18952,9 +18994,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -19052,12 +19094,12 @@
           "room": "221"
         },
         {
-          "time": "W 04:50 PM - 06:50 PM",
-          "room": "533 (C. Lab-3)"
+          "time": "W 10:10 AM - 12:10 PM",
+          "room": "372 (SEIP Lab)"
         }
       ],
-      "time_slot_display": "M 04:50 PM - 06:20 PM \u2022 W 04:50 PM - 06:20 PM \u2022 W 04:50 PM - 06:50 PM",
-      "room_display": "372 (SEIP Lab), 221, 533 (C. Lab-3)"
+      "time_slot_display": "M 04:50 PM - 06:20 PM \u2022 W 04:50 PM - 06:20 PM \u2022 W 10:10 AM - 12:10 PM",
+      "room_display": "372 (SEIP Lab), 221"
     },
     {
       "id": "EEE105-4",
@@ -19068,10 +19110,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "M 08:00 AM - 10:00 AM",
@@ -19124,10 +19166,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "M 04:50 PM - 06:50 PM",
@@ -19154,9 +19196,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -19184,9 +19226,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -19214,9 +19256,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -19244,9 +19286,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -19278,9 +19320,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 28,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 28,
       "status": "Open",
       "slots": [
         {
@@ -19308,10 +19350,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "M 03:10 PM - 04:40 PM",
@@ -19665,7 +19707,7 @@
       "slots": [
         {
           "time": "M 01:30 PM - 03:30 PM",
-          "room": "532 (Power Systems Lab)"
+          "room": "557 (High Voltage Lab/Machines Lab)"
         },
         {
           "time": "M 01:30 PM - 03:30 PM",
@@ -19677,7 +19719,7 @@
         }
       ],
       "time_slot_display": "M 01:30 PM - 03:30 PM \u2022 M 01:30 PM - 03:30 PM \u2022 SR 01:30 PM - 03:00 PM",
-      "room_display": "532 (Power Systems Lab), 372 (SEIP Lab), AB2-601"
+      "room_display": "557 (High Voltage Lab/Machines Lab), 372 (SEIP Lab), AB2-601"
     },
     {
       "id": "EEE303-1",
@@ -19836,10 +19878,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "R 03:10 PM - 04:40 PM",
@@ -20100,10 +20142,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "M 10:10 AM - 11:40 AM",
@@ -20122,10 +20164,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 08:30 AM - 10:00 AM",
@@ -20218,12 +20260,16 @@
           "room": "FUB-203"
         },
         {
-          "time": "S 01:30 PM - 03:30 PM",
+          "time": "T 10:10 AM - 12:10 PM",
           "room": "546 (Switch Gear and Control Lab)"
+        },
+        {
+          "time": "T 10:10 AM - 12:10 PM",
+          "room": "559 (VLSI Lab)"
         }
       ],
-      "time_slot_display": "MW 04:50 PM - 06:20 PM \u2022 S 01:30 PM - 03:30 PM",
-      "room_display": "FUB-203, 546 (Switch Gear and Control Lab)"
+      "time_slot_display": "MW 04:50 PM - 06:20 PM \u2022 T 10:10 AM - 12:10 PM \u2022 T 10:10 AM - 12:10 PM",
+      "room_display": "FUB-203, 546 (Switch Gear and Control Lab), 559 (VLSI Lab)"
     },
     {
       "id": "EEE403-1",
@@ -20553,8 +20599,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -20645,8 +20691,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -20704,6 +20750,300 @@
       ],
       "time_slot_display": "MW 10:10 AM - 11:40 AM",
       "room_display": "FUB-503"
+    },
+    {
+      "id": "EHS7301-1",
+      "course_code": "EHS7301",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "ST 08:30 AM - 10:00 AM",
+          "room": "AB4-802"
+        }
+      ],
+      "time_slot_display": "ST 08:30 AM - 10:00 AM",
+      "room_display": "AB4-802"
+    },
+    {
+      "id": "EHS7302-1",
+      "course_code": "EHS7302",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "SR 04:50 PM - 06:20 PM",
+          "room": "AB1-602"
+        }
+      ],
+      "time_slot_display": "SR 04:50 PM - 06:20 PM",
+      "room_display": "AB1-602"
+    },
+    {
+      "id": "EHS7302-2",
+      "course_code": "EHS7302",
+      "section": 2,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "S 03:10 PM - 04:40 PM",
+          "room": "AB4-302"
+        },
+        {
+          "time": "R 03:10 PM - 04:40 PM",
+          "room": "AB4-801"
+        }
+      ],
+      "time_slot_display": "S 03:10 PM - 04:40 PM \u2022 R 03:10 PM - 04:40 PM",
+      "room_display": "AB4-302, AB4-801"
+    },
+    {
+      "id": "EHS7304-1",
+      "course_code": "EHS7304",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 01:30 PM - 03:00 PM",
+          "room": "550 (Lecture Gallery)"
+        }
+      ],
+      "time_slot_display": "MW 01:30 PM - 03:00 PM",
+      "room_display": "550 (Lecture Gallery)"
+    },
+    {
+      "id": "EHS7304-2",
+      "course_code": "EHS7304",
+      "section": 2,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "TR 04:50 PM - 06:20 PM",
+          "room": "AB4-1001"
+        }
+      ],
+      "time_slot_display": "TR 04:50 PM - 06:20 PM",
+      "room_display": "AB4-1001"
+    },
+    {
+      "id": "EHS7401-1",
+      "course_code": "EHS7401",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "S 11:50 AM - 01:20 PM",
+          "room": "AB3-302"
+        },
+        {
+          "time": "R 11:50 AM - 01:20 PM",
+          "room": "339"
+        }
+      ],
+      "time_slot_display": "S 11:50 AM - 01:20 PM \u2022 R 11:50 AM - 01:20 PM",
+      "room_display": "AB3-302, 339"
+    },
+    {
+      "id": "EHS7405-1",
+      "course_code": "EHS7405",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 10:10 AM - 11:40 AM",
+          "room": "FUB-503"
+        }
+      ],
+      "time_slot_display": "MW 10:10 AM - 11:40 AM",
+      "room_display": "FUB-503"
+    },
+    {
+      "id": "EMBA-9503-1",
+      "course_code": "EMBA-9503",
+      "section": 1,
+      "department": "MBA and EMBA Program",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 10,
+      "seat_taken": 0,
+      "seats_available": 10,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "F 09:00 AM - 12:00 PM",
+          "room": "114"
+        }
+      ],
+      "time_slot_display": "F 09:00 AM - 12:00 PM",
+      "room_display": "114"
+    },
+    {
+      "id": "EMBA-9503-2",
+      "course_code": "EMBA-9503",
+      "section": 2,
+      "department": "MBA and EMBA Program",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 10,
+      "seat_taken": 0,
+      "seats_available": 10,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "S 06:30 PM - 09:30 PM",
+          "room": "109"
+        }
+      ],
+      "time_slot_display": "S 06:30 PM - 09:30 PM",
+      "room_display": "109"
+    },
+    {
+      "id": "EMBA-9504-1",
+      "course_code": "EMBA-9504",
+      "section": 1,
+      "department": "MBA and EMBA Program",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 10,
+      "seat_taken": 0,
+      "seats_available": 10,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "F 03:00 PM - 06:00 PM",
+          "room": "114"
+        }
+      ],
+      "time_slot_display": "F 03:00 PM - 06:00 PM",
+      "room_display": "114"
+    },
+    {
+      "id": "EMBA-9504-2",
+      "course_code": "EMBA-9504",
+      "section": 2,
+      "department": "MBA and EMBA Program",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 10,
+      "seat_taken": 0,
+      "seats_available": 10,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "F 06:30 PM - 09:30 PM",
+          "room": "114"
+        }
+      ],
+      "time_slot_display": "F 06:30 PM - 09:30 PM",
+      "room_display": "114"
+    },
+    {
+      "id": "EMBA-9506-1",
+      "course_code": "EMBA-9506",
+      "section": 1,
+      "department": "MBA and EMBA Program",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 10,
+      "seat_taken": 0,
+      "seats_available": 10,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "T 06:30 PM - 09:30 PM",
+          "room": "109"
+        }
+      ],
+      "time_slot_display": "T 06:30 PM - 09:30 PM",
+      "room_display": "109"
+    },
+    {
+      "id": "EMBA-9506-2",
+      "course_code": "EMBA-9506",
+      "section": 2,
+      "department": "MBA and EMBA Program",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 10,
+      "seat_taken": 0,
+      "seats_available": 10,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "A 06:30 PM - 09:30 PM",
+          "room": "115"
+        }
+      ],
+      "time_slot_display": "A 06:30 PM - 09:30 PM",
+      "room_display": "115"
     },
     {
       "id": "ENG099-1",
@@ -20854,10 +21194,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 08:30 AM - 10:00 AM",
@@ -20880,10 +21220,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 04:50 PM - 06:20 PM",
@@ -20906,10 +21246,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "SR 04:50 PM - 06:20 PM",
@@ -21016,18 +21356,18 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
-          "time": "MW 10:10 AM - 11:40 AM",
-          "room": "109"
+          "time": "MW 08:30 AM - 10:00 AM",
+          "room": "AB2-602"
         }
       ],
-      "time_slot_display": "MW 10:10 AM - 11:40 AM",
-      "room_display": "109"
+      "time_slot_display": "MW 08:30 AM - 10:00 AM",
+      "room_display": "AB2-602"
     },
     {
       "id": "ENG7100-6",
@@ -21038,10 +21378,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "TR 03:10 PM - 04:40 PM",
@@ -21236,10 +21576,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 0,
+      "seat_capacity": 30,
       "seat_taken": 0,
-      "seats_available": 0,
-      "status": "Closed",
+      "seats_available": 30,
+      "status": "Open",
       "slots": [
         {
           "time": "MW 10:10 AM - 11:40 AM",
@@ -21380,10 +21720,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "R 10:10 AM - 11:40 AM",
@@ -21406,10 +21746,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 08:30 AM - 10:00 AM",
@@ -21428,10 +21768,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 0,
+      "seat_capacity": 30,
       "seat_taken": 0,
-      "seats_available": 0,
-      "status": "Closed",
+      "seats_available": 30,
+      "status": "Open",
       "slots": [
         {
           "time": "MW 10:10 AM - 11:40 AM",
@@ -21450,10 +21790,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 10:10 AM - 11:40 AM",
@@ -21476,10 +21816,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 01:30 PM - 03:00 PM",
@@ -21502,10 +21842,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 04:50 PM - 06:20 PM",
@@ -21528,10 +21868,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 04:50 PM - 06:20 PM",
@@ -21554,10 +21894,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 01:30 PM - 03:00 PM",
@@ -22118,10 +22458,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "SR 01:30 PM - 03:00 PM",
@@ -22140,10 +22480,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 11:50 AM - 01:20 PM",
@@ -22162,10 +22502,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 10:10 AM - 11:40 AM",
@@ -22184,10 +22524,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "MW 08:30 AM - 10:00 AM",
@@ -22206,10 +22546,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 11:50 AM - 01:20 PM",
@@ -22228,10 +22568,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "MW 08:30 AM - 10:00 AM",
@@ -22250,10 +22590,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 10:10 AM - 11:40 AM",
@@ -22294,10 +22634,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 08:30 AM - 10:00 AM",
@@ -22316,10 +22656,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 11:50 AM - 01:20 PM",
@@ -22338,10 +22678,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "MW 08:30 AM - 10:00 AM",
@@ -22360,10 +22700,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "R 01:30 PM - 03:00 PM",
@@ -22386,10 +22726,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 04:50 PM - 06:20 PM",
@@ -22404,32 +22744,6 @@
       "room_display": "AB3-1001, AB3-1002"
     },
     {
-      "id": "ENG7101-37",
-      "course_code": "ENG7101",
-      "section": 37,
-      "department": "Department of English",
-      "faculty_name": "TBA",
-      "initial": "TBA",
-      "email": "",
-      "section_id": null,
-      "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
-      "slots": [
-        {
-          "time": "S 10:10 AM - 11:40 AM",
-          "room": "AB3-702"
-        },
-        {
-          "time": "R 10:10 AM - 11:40 AM",
-          "room": "FUB-604"
-        }
-      ],
-      "time_slot_display": "S 10:10 AM - 11:40 AM \u2022 R 10:10 AM - 11:40 AM",
-      "room_display": "AB3-702, FUB-604"
-    },
-    {
       "id": "ENG7101-38",
       "course_code": "ENG7101",
       "section": 38,
@@ -22438,10 +22752,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 04:50 PM - 06:20 PM",
@@ -22464,10 +22778,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 38,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "S 04:50 PM - 06:20 PM",
@@ -22564,9 +22878,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22586,9 +22900,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22608,9 +22922,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22634,9 +22948,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22656,9 +22970,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22678,9 +22992,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22704,9 +23018,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22730,9 +23044,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22778,9 +23092,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22800,9 +23114,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22822,9 +23136,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22844,9 +23158,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22866,9 +23180,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22888,9 +23202,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22910,9 +23224,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22932,9 +23246,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22954,9 +23268,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22976,9 +23290,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -22998,9 +23312,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23024,9 +23338,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23050,9 +23364,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23072,9 +23386,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23094,9 +23408,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23116,9 +23430,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23142,9 +23456,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23164,9 +23478,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23186,9 +23500,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23208,9 +23522,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23230,9 +23544,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23252,9 +23566,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23274,9 +23588,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23296,9 +23610,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23318,9 +23632,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23340,9 +23654,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23362,9 +23676,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23384,9 +23698,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23406,9 +23720,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 35,
       "seat_taken": 0,
-      "seats_available": 30,
+      "seats_available": 35,
       "status": "Open",
       "slots": [
         {
@@ -23428,10 +23742,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 04:50 PM - 06:20 PM",
@@ -23450,10 +23764,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "MW 04:50 PM - 06:20 PM",
@@ -23472,10 +23786,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "ST 04:50 PM - 06:20 PM",
@@ -23494,10 +23808,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "SR 01:30 PM - 03:00 PM",
@@ -23516,10 +23830,10 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 30,
+      "seat_capacity": 0,
       "seat_taken": 0,
-      "seats_available": 30,
-      "status": "Open",
+      "seats_available": 0,
+      "status": "Closed",
       "slots": [
         {
           "time": "SR 03:10 PM - 04:40 PM",
@@ -23560,9 +23874,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 40,
       "seat_taken": 0,
-      "seats_available": 38,
+      "seats_available": 40,
       "status": "Open",
       "slots": [
         {
@@ -23582,9 +23896,9 @@
       "initial": "TBA",
       "email": "",
       "section_id": null,
-      "seat_capacity": 38,
+      "seat_capacity": 40,
       "seat_taken": 0,
-      "seats_available": 38,
+      "seats_available": 40,
       "status": "Open",
       "slots": [
         {
@@ -24920,12 +25234,12 @@
       "status": "Open",
       "slots": [
         {
-          "time": "MW 08:30 AM - 10:00 AM",
-          "room": "AB2-602"
+          "time": "MW 10:10 AM - 11:40 AM",
+          "room": "109"
         }
       ],
-      "time_slot_display": "MW 08:30 AM - 10:00 AM",
-      "room_display": "AB2-602"
+      "time_slot_display": "MW 10:10 AM - 11:40 AM",
+      "room_display": "109"
     },
     {
       "id": "ENG7338-1",
@@ -25096,16 +25410,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "S 04:50 PM - 06:20 PM",
-          "room": "AB1-402"
+          "time": "S 10:10 AM - 11:40 AM",
+          "room": "AB3-702"
         },
         {
-          "time": "T 04:50 PM - 06:20 PM",
-          "room": "372"
+          "time": "R 10:10 AM - 11:40 AM",
+          "room": "FUB-604"
         }
       ],
-      "time_slot_display": "S 04:50 PM - 06:20 PM \u2022 T 04:50 PM - 06:20 PM",
-      "room_display": "AB1-402, 372"
+      "time_slot_display": "S 10:10 AM - 11:40 AM \u2022 R 10:10 AM - 11:40 AM",
+      "room_display": "AB3-702, FUB-604"
     },
     {
       "id": "ENG7399-3",
@@ -26057,8 +26371,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -26145,8 +26459,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -26197,8 +26511,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 4,
+      "seats_available": 34,
       "status": "Open",
       "slots": [
         {
@@ -26421,8 +26735,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -26685,11 +26999,11 @@
       "slots": [
         {
           "time": "MW 04:50 PM - 06:20 PM",
-          "room": "FUB-404"
+          "room": "AB4-202"
         }
       ],
       "time_slot_display": "MW 04:50 PM - 06:20 PM",
-      "room_display": "FUB-404"
+      "room_display": "AB4-202"
     },
     {
       "id": "FIN201-3",
@@ -28071,11 +28385,11 @@
       "slots": [
         {
           "time": "MW 04:50 PM - 06:20 PM",
-          "room": "FUB-404"
+          "room": "AB4-202"
         }
       ],
       "time_slot_display": "MW 04:50 PM - 06:20 PM",
-      "room_display": "FUB-404"
+      "room_display": "AB4-202"
     },
     {
       "id": "FIN7201-3",
@@ -28862,6 +29176,28 @@
       ],
       "time_slot_display": "S 06:30 PM - 09:30 PM",
       "room_display": "429"
+    },
+    {
+      "id": "FIN9522-2",
+      "course_code": "FIN9522",
+      "section": 2,
+      "department": "Department of Business Administration",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 30,
+      "seat_taken": 0,
+      "seats_available": 30,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "A 06:30 PM - 09:30 PM",
+          "room": "113"
+        }
+      ],
+      "time_slot_display": "A 06:30 PM - 09:30 PM",
+      "room_display": "113"
     },
     {
       "id": "FIN9525-1",
@@ -30074,12 +30410,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "SR 11:50 AM - 01:20 PM",
+          "time": "S 11:50 AM - 01:20 PM",
+          "room": "354 (Lecture Gallery)"
+        },
+        {
+          "time": "R 11:50 AM - 01:20 PM",
           "room": "AB1-402"
         }
       ],
-      "time_slot_display": "SR 11:50 AM - 01:20 PM",
-      "room_display": "AB1-402"
+      "time_slot_display": "S 11:50 AM - 01:20 PM \u2022 R 11:50 AM - 01:20 PM",
+      "room_display": "354 (Lecture Gallery), AB1-402"
     },
     {
       "id": "GEB7308-1",
@@ -30247,8 +30587,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 30,
-      "seat_taken": 0,
-      "seats_available": 30,
+      "seat_taken": 1,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -30278,16 +30618,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "A 03:10 PM - 04:40 PM",
-          "room": "212"
+          "time": "A 10:10 AM - 11:40 AM",
+          "room": "217"
         },
         {
           "time": "R 03:10 PM - 04:40 PM",
           "room": "217"
         }
       ],
-      "time_slot_display": "A 03:10 PM - 04:40 PM \u2022 R 03:10 PM - 04:40 PM",
-      "room_display": "212, 217"
+      "time_slot_display": "A 10:10 AM - 11:40 AM \u2022 R 03:10 PM - 04:40 PM",
+      "room_display": "217"
     },
     {
       "id": "GEB7407-2",
@@ -30304,16 +30644,16 @@
       "status": "Open",
       "slots": [
         {
-          "time": "A 04:50 PM - 06:20 PM",
-          "room": "212"
+          "time": "A 11:50 AM - 01:20 PM",
+          "room": "217"
         },
         {
           "time": "R 04:50 PM - 06:20 PM",
           "room": "217"
         }
       ],
-      "time_slot_display": "A 04:50 PM - 06:20 PM \u2022 R 04:50 PM - 06:20 PM",
-      "room_display": "212, 217"
+      "time_slot_display": "A 11:50 AM - 01:20 PM \u2022 R 04:50 PM - 06:20 PM",
+      "room_display": "217"
     },
     {
       "id": "GEB7407-3",
@@ -30601,8 +30941,8 @@
       "email": "nujhat.naila@ewubd.edu",
       "section_id": 76656,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -30899,8 +31239,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 2,
+      "seats_available": 36,
       "status": "Open",
       "slots": [
         {
@@ -33721,11 +34061,11 @@
       "slots": [
         {
           "time": "S 06:30 PM - 09:30 PM",
-          "room": "242 (Lecture Gallery)"
+          "room": "113"
         }
       ],
       "time_slot_display": "S 06:30 PM - 09:30 PM",
-      "room_display": "242 (Lecture Gallery)"
+      "room_display": "113"
     },
     {
       "id": "HRM9501-3",
@@ -34137,8 +34477,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -36218,9 +36558,9 @@
       "course_code": "LAW0421-110",
       "section": 2,
       "department": "Department of Law",
-      "faculty_name": "TBA",
-      "initial": "TBA",
-      "email": "",
+      "faculty_name": "Shaikh Mirazur Rahman",
+      "initial": "SKMR",
+      "email": "shaikh.rahman@ewubd.edu",
       "section_id": 71974,
       "seat_capacity": 40,
       "seat_taken": 40,
@@ -37005,8 +37345,8 @@
       "section": 1,
       "department": "Department of Law",
       "faculty_name": "Dr. Nabaat Tasnima Mahbub",
-      "initial": "DNTM1",
-      "email": "qweq@ewubd.edu",
+      "initial": "DNTM",
+      "email": "nabaatmahbub@ewubd.edu",
       "section_id": 71908,
       "seat_capacity": 40,
       "seat_taken": 17,
@@ -39853,11 +40193,11 @@
       "slots": [
         {
           "time": "ST 08:30 AM - 10:00 AM",
-          "room": "FUB-504"
+          "room": "AB4-1001"
         }
       ],
       "time_slot_display": "ST 08:30 AM - 10:00 AM",
-      "room_display": "FUB-504"
+      "room_display": "AB4-1001"
     },
     {
       "id": "MAT205-8",
@@ -41030,12 +41370,12 @@
       "status": "Open",
       "slots": [
         {
-          "time": "MW 03:10 PM - 04:40 PM",
-          "room": "AB4-801"
+          "time": "MW 01:30 PM - 03:00 PM",
+          "room": "AB3-902"
         }
       ],
-      "time_slot_display": "MW 03:10 PM - 04:40 PM",
-      "room_display": "AB4-801"
+      "time_slot_display": "MW 01:30 PM - 03:00 PM",
+      "room_display": "AB3-902"
     },
     {
       "id": "MAT7211-2",
@@ -41096,12 +41436,12 @@
       "status": "Open",
       "slots": [
         {
-          "time": "MW 04:50 PM - 06:20 PM",
-          "room": "AB3-601"
+          "time": "MW 10:10 AM - 11:10 AM",
+          "room": "AB4-1002"
         }
       ],
-      "time_slot_display": "MW 04:50 PM - 06:20 PM",
-      "room_display": "AB3-601"
+      "time_slot_display": "MW 10:10 AM - 11:10 AM",
+      "room_display": "AB4-1002"
     },
     {
       "id": "MAT7211-5",
@@ -42449,15 +42789,15 @@
       "slots": [
         {
           "time": "S 08:30 AM - 10:00 AM",
-          "room": "AB3-801"
+          "room": "242 (Lecture Gallery)"
         },
         {
           "time": "R 08:30 AM - 10:00 AM",
-          "room": "AB3-902"
+          "room": "108"
         }
       ],
       "time_slot_display": "S 08:30 AM - 10:00 AM \u2022 R 08:30 AM - 10:00 AM",
-      "room_display": "AB3-801, AB3-902"
+      "room_display": "242 (Lecture Gallery), 108"
     },
     {
       "id": "MGT337-8",
@@ -42475,7 +42815,7 @@
       "slots": [
         {
           "time": "S 10:10 AM - 11:40 AM",
-          "room": "AB4-801"
+          "room": "242 (Lecture Gallery)"
         },
         {
           "time": "R 10:10 AM - 11:40 AM",
@@ -42483,7 +42823,7 @@
         }
       ],
       "time_slot_display": "S 10:10 AM - 11:40 AM \u2022 R 10:10 AM - 11:40 AM",
-      "room_display": "AB4-801, AB4-902"
+      "room_display": "242 (Lecture Gallery), AB4-902"
     },
     {
       "id": "MGT480-1",
@@ -43251,15 +43591,15 @@
       "slots": [
         {
           "time": "S 08:30 AM - 10:00 AM",
-          "room": "AB3-801"
+          "room": "242 (Lecture Gallery)"
         },
         {
           "time": "R 08:30 AM - 10:00 AM",
-          "room": "AB3-902"
+          "room": "108"
         }
       ],
       "time_slot_display": "S 08:30 AM - 10:00 AM \u2022 R 08:30 AM - 10:00 AM",
-      "room_display": "AB3-801, AB3-902"
+      "room_display": "242 (Lecture Gallery), 108"
     },
     {
       "id": "MGT7338-8",
@@ -43277,7 +43617,7 @@
       "slots": [
         {
           "time": "S 10:10 AM - 11:40 AM",
-          "room": "AB4-801"
+          "room": "242 (Lecture Gallery)"
         },
         {
           "time": "R 10:10 AM - 11:40 AM",
@@ -43285,7 +43625,7 @@
         }
       ],
       "time_slot_display": "S 10:10 AM - 11:40 AM \u2022 R 10:10 AM - 11:40 AM",
-      "room_display": "AB4-801, AB4-902"
+      "room_display": "242 (Lecture Gallery), AB4-902"
     },
     {
       "id": "MGT7480-1",
@@ -54761,8 +55101,8 @@
       "email": "",
       "section_id": 72104,
       "seat_capacity": 40,
-      "seat_taken": 35,
-      "seats_available": 5,
+      "seat_taken": 36,
+      "seats_available": 4,
       "status": "Open",
       "slots": [
         {
@@ -54831,8 +55171,8 @@
       "email": "",
       "section_id": 72107,
       "seat_capacity": 20,
-      "seat_taken": 7,
-      "seats_available": 13,
+      "seat_taken": 8,
+      "seats_available": 12,
       "status": "Open",
       "slots": [
         {
@@ -55207,8 +55547,8 @@
       "email": "",
       "section_id": 72123,
       "seat_capacity": 40,
-      "seat_taken": 10,
-      "seats_available": 30,
+      "seat_taken": 11,
+      "seats_available": 29,
       "status": "Open",
       "slots": [
         {
@@ -55329,8 +55669,8 @@
       "email": "",
       "section_id": 72128,
       "seat_capacity": 20,
-      "seat_taken": 13,
-      "seats_available": 7,
+      "seat_taken": 14,
+      "seats_available": 6,
       "status": "Open",
       "slots": [
         {
@@ -55565,9 +55905,9 @@
       "email": "",
       "section_id": 72138,
       "seat_capacity": 40,
-      "seat_taken": 39,
-      "seats_available": 1,
-      "status": "Open",
+      "seat_taken": 40,
+      "seats_available": 0,
+      "status": "Full",
       "slots": [
         {
           "time": "S 11:35 AM - 12:50 PM",
@@ -55669,8 +56009,8 @@
       "email": "",
       "section_id": 72142,
       "seat_capacity": 40,
-      "seat_taken": 20,
-      "seats_available": 20,
+      "seat_taken": 21,
+      "seats_available": 19,
       "status": "Open",
       "slots": [
         {
@@ -55735,8 +56075,8 @@
       "email": "",
       "section_id": 72145,
       "seat_capacity": 20,
-      "seat_taken": 18,
-      "seats_available": 2,
+      "seat_taken": 19,
+      "seats_available": 1,
       "status": "Open",
       "slots": [
         {
@@ -55955,8 +56295,8 @@
       "email": "",
       "section_id": 72155,
       "seat_capacity": 45,
-      "seat_taken": 41,
-      "seats_available": 4,
+      "seat_taken": 42,
+      "seats_available": 3,
       "status": "Open",
       "slots": [
         {
@@ -56133,8 +56473,8 @@
       "email": "",
       "section_id": 72162,
       "seat_capacity": 100,
-      "seat_taken": 57,
-      "seats_available": 43,
+      "seat_taken": 59,
+      "seats_available": 41,
       "status": "Open",
       "slots": [
         {
@@ -57361,8 +57701,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -57405,8 +57745,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -57438,6 +57778,290 @@
       ],
       "time_slot_display": "TR 04:50 PM - 06:20 PM",
       "room_display": "108"
+    },
+    {
+      "id": "PHS7301-1",
+      "course_code": "PHS7301",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 03:10 PM - 04:40 PM",
+          "room": "AB3-901"
+        }
+      ],
+      "time_slot_display": "MW 03:10 PM - 04:40 PM",
+      "room_display": "AB3-901"
+    },
+    {
+      "id": "PHS7301-2",
+      "course_code": "PHS7301",
+      "section": 2,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "TR 04:50 PM - 06:20 PM",
+          "room": "FUB-401"
+        }
+      ],
+      "time_slot_display": "TR 04:50 PM - 06:20 PM",
+      "room_display": "FUB-401"
+    },
+    {
+      "id": "PHS7302-1",
+      "course_code": "PHS7302",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 08:30 AM - 10:00 AM",
+          "room": "AB4-1001"
+        }
+      ],
+      "time_slot_display": "MW 08:30 AM - 10:00 AM",
+      "room_display": "AB4-1001"
+    },
+    {
+      "id": "PHS7303-1",
+      "course_code": "PHS7303",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "SR 03:10 PM - 04:40 PM",
+          "room": "AB3-901"
+        }
+      ],
+      "time_slot_display": "SR 03:10 PM - 04:40 PM",
+      "room_display": "AB3-901"
+    },
+    {
+      "id": "PHS7303-2",
+      "course_code": "PHS7303",
+      "section": 2,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "S 03:10 PM - 04:40 PM",
+          "room": "FUB-403"
+        },
+        {
+          "time": "R 03:10 PM - 04:40 PM",
+          "room": "AB3-401"
+        }
+      ],
+      "time_slot_display": "S 03:10 PM - 04:40 PM \u2022 R 03:10 PM - 04:40 PM",
+      "room_display": "FUB-403, AB3-401"
+    },
+    {
+      "id": "PHS7304-1",
+      "course_code": "PHS7304",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "S 11:50 AM - 01:20 PM",
+          "room": "AB3-802"
+        },
+        {
+          "time": "R 11:50 AM - 01:20 PM",
+          "room": "AB1-301"
+        }
+      ],
+      "time_slot_display": "S 11:50 AM - 01:20 PM \u2022 R 11:50 AM - 01:20 PM",
+      "room_display": "AB3-802, AB1-301"
+    },
+    {
+      "id": "PHS7305-1",
+      "course_code": "PHS7305",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "S 10:10 AM - 11:40 AM",
+          "room": "AB1-302"
+        },
+        {
+          "time": "R 10:10 AM - 11:40 AM",
+          "room": "AB1-602"
+        }
+      ],
+      "time_slot_display": "S 10:10 AM - 11:40 AM \u2022 R 10:10 AM - 11:40 AM",
+      "room_display": "AB1-302, AB1-602"
+    },
+    {
+      "id": "PHS7401-1",
+      "course_code": "PHS7401",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "R 08:30 AM - 10:00 AM",
+          "room": "AB1-202"
+        },
+        {
+          "time": "T 08:30 AM - 10:00 AM",
+          "room": "AB1-302"
+        }
+      ],
+      "time_slot_display": "R 08:30 AM - 10:00 AM \u2022 T 08:30 AM - 10:00 AM",
+      "room_display": "AB1-202, AB1-302"
+    },
+    {
+      "id": "PHS7402-1",
+      "course_code": "PHS7402",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "R 10:10 AM - 11:40 AM",
+          "room": "429"
+        },
+        {
+          "time": "T 10:10 AM - 11:40 AM",
+          "room": "AB2-201"
+        }
+      ],
+      "time_slot_display": "R 10:10 AM - 11:40 AM \u2022 T 10:10 AM - 11:40 AM",
+      "room_display": "429, AB2-201"
+    },
+    {
+      "id": "PHS7403-1",
+      "course_code": "PHS7403",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 10:10 AM - 11:40 AM",
+          "room": "113"
+        }
+      ],
+      "time_slot_display": "MW 10:10 AM - 11:40 AM",
+      "room_display": "113"
+    },
+    {
+      "id": "PHS7404-1",
+      "course_code": "PHS7404",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 03:10 PM - 04:40 PM",
+          "room": "FUB-104"
+        }
+      ],
+      "time_slot_display": "MW 03:10 PM - 04:40 PM",
+      "room_display": "FUB-104"
+    },
+    {
+      "id": "PHS7405-1",
+      "course_code": "PHS7405",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 01:30 PM - 03:00 PM",
+          "room": "FUB-303"
+        }
+      ],
+      "time_slot_display": "MW 01:30 PM - 03:00 PM",
+      "room_display": "FUB-303"
     },
     {
       "id": "PHY100-1",
@@ -58603,8 +59227,8 @@
       "email": "",
       "section_id": null,
       "seat_capacity": 38,
-      "seat_taken": 0,
-      "seats_available": 38,
+      "seat_taken": 1,
+      "seats_available": 37,
       "status": "Open",
       "slots": [
         {
@@ -58714,6 +59338,28 @@
       ],
       "time_slot_display": "R 04:50 PM - 06:20 PM \u2022 T 04:50 PM - 06:20 PM",
       "room_display": "AB3-701, AB3-502"
+    },
+    {
+      "id": "PHY212-1",
+      "course_code": "PHY212",
+      "section": 1,
+      "department": "Department of Mathematics and Data Science",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 08:30 AM - 10:00 AM",
+          "room": "AB4-402"
+        }
+      ],
+      "time_slot_display": "MW 08:30 AM - 10:00 AM",
+      "room_display": "AB4-402"
     },
     {
       "id": "PHY7107-1",
@@ -59686,6 +60332,128 @@
       ],
       "time_slot_display": "TR 04:50 PM - 06:20 PM",
       "room_display": "FUB-601"
+    },
+    {
+      "id": "PPHS7205-1",
+      "course_code": "PPHS7205",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "ST 11:50 AM - 01:20 PM",
+          "room": "530 (C. Lab-2)"
+        }
+      ],
+      "time_slot_display": "ST 11:50 AM - 01:20 PM",
+      "room_display": "530 (C. Lab-2)"
+    },
+    {
+      "id": "PPHS7205-2",
+      "course_code": "PPHS7205",
+      "section": 2,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "MW 01:30 PM - 03:00 PM",
+          "room": "530 (C. Lab-2)"
+        }
+      ],
+      "time_slot_display": "MW 01:30 PM - 03:00 PM",
+      "room_display": "530 (C. Lab-2)"
+    },
+    {
+      "id": "PPHS7306-1",
+      "course_code": "PPHS7306",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "S 11:50 AM - 01:20 PM",
+          "room": "AB3-901"
+        },
+        {
+          "time": "R 11:50 AM - 01:20 PM",
+          "room": "429"
+        }
+      ],
+      "time_slot_display": "S 11:50 AM - 01:20 PM \u2022 R 11:50 AM - 01:20 PM",
+      "room_display": "AB3-901, 429"
+    },
+    {
+      "id": "PPHS7306-2",
+      "course_code": "PPHS7306",
+      "section": 2,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "R 04:50 PM - 06:20 PM",
+          "room": "AB1-502"
+        },
+        {
+          "time": "T 04:50 PM - 06:20 PM",
+          "room": "AB1-601"
+        }
+      ],
+      "time_slot_display": "R 04:50 PM - 06:20 PM \u2022 T 04:50 PM - 06:20 PM",
+      "room_display": "AB1-502, AB1-601"
+    },
+    {
+      "id": "PPHS7307-1",
+      "course_code": "PPHS7307",
+      "section": 1,
+      "department": "Department of Social Relations",
+      "faculty_name": "TBA",
+      "initial": "TBA",
+      "email": "",
+      "section_id": null,
+      "seat_capacity": 38,
+      "seat_taken": 0,
+      "seats_available": 38,
+      "status": "Open",
+      "slots": [
+        {
+          "time": "S 03:10 PM - 04:40 PM",
+          "room": "AB1-801"
+        },
+        {
+          "time": "R 03:10 PM - 04:40 PM",
+          "room": "FUB-502"
+        }
+      ],
+      "time_slot_display": "S 03:10 PM - 04:40 PM \u2022 R 03:10 PM - 04:40 PM",
+      "room_display": "AB1-801, FUB-502"
     },
     {
       "id": "PSS305-1",
